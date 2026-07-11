@@ -1,0 +1,6 @@
+{
+  "name": "SMART AGE INNOVATIONS LIMITED (SAIL)",
+  "description": "The official corporate portal for SMART AGE INNOVATIONS LIMITED (SAIL), a premier supplier of high-quality wood boards, custom office and school furniture, bespoke architectural joinery, stationery supplies, timber hardware, and SADC-certified industrial PPE.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
