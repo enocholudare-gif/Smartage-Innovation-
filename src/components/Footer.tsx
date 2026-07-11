@@ -60,24 +60,36 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               <Logo size="md" variant="light" />
             </div>
 
-            <p className="text-slate-400 text-xs leading-relaxed max-w-sm font-normal">
-              SMARTAGE INNOVATIONS LIMITED (SAIL) is a professional, PACRA-registered regional supplier of premium wood boards, custom corporate furniture, wood processing machinery, accessories, and structural timber across SADC borders.
-            </p>
-
-            {/* Certifications Badges */}
-            <div className="pt-2 flex flex-wrap gap-2">
-              <span className="inline-flex items-center space-x-1.5 px-2.5 py-1 rounded-md bg-stone-900 border border-stone-800 text-[10px] text-slate-300 font-mono">
-                <ShieldCheck className="w-3.5 h-3.5 text-[#B58E3D]" />
-                <span>Zambia PACRA Approved</span>
-              </span>
-              <span className="inline-flex items-center space-x-1.5 px-2.5 py-1 rounded-md bg-stone-900 border border-stone-800 text-[10px] text-slate-300 font-mono">
-                <Award className="w-3.5 h-3.5 text-[#B58E3D]" />
-                <span>High Grade Timber</span>
-              </span>
-              <span className="inline-flex items-center space-x-1.5 px-2.5 py-1 rounded-md bg-stone-900 border border-stone-800 text-[10px] text-slate-300 font-mono">
-                <Globe2 className="w-3.5 h-3.5 text-[#B58E3D]" />
-                <span>SADC Regional Supplier</span>
-              </span>
+            <div className="space-y-4">
+              <h4 className="text-white text-xs font-bold uppercase tracking-wider font-mono border-b border-stone-800 pb-2">
+                INDUSTRIES WE SERVE
+              </h4>
+              <p className="text-slate-400 text-[11px] leading-relaxed">
+                Our products support a wide range of industries, including:<br/>
+                • Construction<br/>
+                • Furniture Manufacturing<br/>
+                • Interior Design & Fit-Out<br/>
+                • Infrastructure Development<br/>
+                • Agriculture<br/>
+                • Mining<br/>
+                • Commercial & Retail<br/>
+                • Government & Public Institutions<br/>
+                • Residential Development
+              </p>
+              <h4 className="text-white text-xs font-bold uppercase tracking-wider font-mono border-b border-stone-800 pb-2 pt-2">
+                OUR COMMITMENT
+              </h4>
+              <p className="text-slate-400 text-[11px] leading-relaxed">
+                At Smart Age Innovations Ltd, we are committed to supplying quality products that meet the highest standards of performance, durability, and reliability. Through strong partnerships with reputable manufacturers and a customer-first approach, we strive to deliver solutions that help our clients build, create, and grow with confidence.
+              </p>
+              <h4 className="text-white text-xs font-bold uppercase tracking-wider font-mono border-b border-stone-800 pb-2 pt-2">
+                BUILD WITH CONFIDENCE
+              </h4>
+              <p className="text-slate-400 text-[11px] leading-relaxed">
+                Whether you need engineered wood panels, construction boards, treated poles, furniture solutions, or sustainable wood products, Smart Age Innovations Ltd has the products and expertise to support your next project.
+                <br/><br/>
+                <button onClick={() => onNavigate('products')} className="hover:text-[#B58E3D] transition-colors">Browse Products</button> • <button onClick={() => onNavigate('contact')} className="hover:text-[#B58E3D] transition-colors">Request a Quote</button> • <button onClick={() => onNavigate('contact')} className="hover:text-[#B58E3D] transition-colors">Contact Our Team</button>
+              </p>
             </div>
           </div>
 
@@ -158,6 +170,8 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
         <div className="pt-8 flex flex-col md:flex-row items-center justify-between text-xs text-slate-500 space-y-4 md:space-y-0 border-t border-stone-800/40 mt-8">
           <div className="flex flex-col sm:flex-row items-center gap-2">
             <span>© {new Date().getFullYear()} SMARTAGE INNOVATIONS LIMITED (SAIL). All rights reserved.</span>
+            <span className="hidden sm:block">•</span>
+            <span>Built by <span className="text-[#B58E3D] font-bold">Zambia Cloud Programmers</span></span>
           </div>
 
           <div className="flex items-center space-x-6 text-slate-400">

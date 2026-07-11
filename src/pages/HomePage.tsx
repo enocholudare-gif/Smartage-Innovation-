@@ -317,7 +317,6 @@ export const HomePage: React.FC<HomePageProps> = ({
           <div className="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8">
             <div className="max-w-3xl">
               <motion.div
-                key={currentSlide}
                 initial={{ opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, ease: 'easeOut' }}
@@ -332,24 +331,21 @@ export const HomePage: React.FC<HomePageProps> = ({
                   </div>
                   
                   <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white tracking-tight leading-tight font-display [text-shadow:_0_2px_8px_rgba(0,0,0,0.85)]">
-                    {carouselSlides[currentSlide].title}
+                    Premium Wood Products. Reliable Supply. Trusted Solutions.
                   </h1>
                   
-                  <p className="text-sm sm:text-base md:text-lg text-slate-200 leading-relaxed font-normal max-w-xl [text-shadow:_0_1px_4px_rgba(0,0,0,0.8)]">
-                    {carouselSlides[currentSlide].subtitle}
+                  <p className="text-sm sm:text-base md:text-lg text-slate-200 leading-relaxed font-normal max-w-2xl [text-shadow:_0_1px_4px_rgba(0,0,0,0.8)]">
+                    Smart Age Innovations Ltd is a trusted supplier of premium engineered wood products, timber solutions, treated poles, furniture, and sustainable biomass products. We connect businesses, contractors, institutions, and individuals with high-quality products sourced from leading manufacturers to meet the demands of construction, furniture production, infrastructure, agriculture, and industrial projects.
                   </p>
                 </div>
 
                 {/* Call to Actions */}
                 <div className="pt-2 flex flex-wrap gap-3">
                   <button
-                    onClick={() => {
-                      const slide = carouselSlides[currentSlide];
-                      onNavigate(slide.page, slide.category);
-                    }}
+                    onClick={() => onNavigate('products')}
                     className="bg-[#8B5A2B] hover:bg-[#704823] text-white text-[11px] font-bold px-7 py-4 rounded-xl uppercase tracking-widest transition-all shadow-lg hover:shadow-[#8B5A2B]/20 cursor-pointer"
                   >
-                    {carouselSlides[currentSlide].ctaText}
+                    Explore Products
                   </button>
                   <button
                     onClick={() => onNavigate('contact')}
@@ -392,45 +388,29 @@ export const HomePage: React.FC<HomePageProps> = ({
         </div>
       </section>
 
-      {/* 3. ABOUT US INTRO SECTION */}
+      {/* 3. WHO WE ARE SECTION */}
       <section className="py-20 bg-white border-b border-slate-100">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="space-y-6">
             <div className="space-y-3">
               <span className="text-xs font-extrabold text-[#8B5A2B] uppercase tracking-widest font-mono">
-                Get To Know Us
+                Who We Are
               </span>
               <h2 className="text-3xl sm:text-4xl font-black text-slate-900 font-display tracking-tight leading-tight">
-                About Us
+                Your Trusted Partner for Quality Wood Products
               </h2>
             </div>
             
-            <div className="space-y-4 max-w-3xl mx-auto">
+            <div className="space-y-4 max-w-3xl mx-auto text-left">
               <p className="text-slate-600 text-sm sm:text-base leading-relaxed font-normal">
-                <strong>Smart Age Innovations Ltd (SAIL)</strong> is an indigenous Zambian-owned company recently incorporated as a subsidiary of Smart Age Business Solutions Ltd. SAIL is a dynamic and forward-thinking organization dedicated to delivering cutting-edge solutions and exceptional services while leveraging the strength and expertise of its parent company...
+                Smart Age Innovations Ltd is dedicated to supplying high-quality wood products and timber solutions that meet the needs of today's construction, furniture, infrastructure, commercial, and industrial sectors.
               </p>
-              <p className="text-slate-500 text-xs sm:text-sm leading-relaxed">
-                Through our premium timber supply, modern panels, high-durability school &amp; office furniture, and tailored interior solutions, we serve a growing client list across the Southern African region with certified, durable craftsmanship.
+              <p className="text-slate-600 text-sm sm:text-base leading-relaxed font-normal">
+                We work with reputable manufacturers and trusted supply partners to provide a comprehensive range of engineered wood panels, plywood, laminated boards, treated transmission and fencing poles, furniture, and biomass products. Our focus is on delivering dependable products, competitive pricing, and professional customer service that enables our clients to complete their projects with confidence.
               </p>
-            </div>
-
-            <div className="pt-4 flex flex-col sm:flex-row items-center justify-center gap-6">
-              <button
-                onClick={() => onNavigate('about')}
-                className="inline-flex items-center space-x-2 bg-[#8B5A2B] hover:bg-[#704823] text-white text-xs font-bold px-7 py-3.5 rounded-xl uppercase tracking-wider transition-all shadow-md hover:shadow-[#8B5A2B]/10 cursor-pointer"
-              >
-                <span>Read More</span>
-                <ArrowRight className="w-4 h-4" />
-              </button>
-              <div className="flex items-center space-x-2 bg-slate-50 border border-slate-150 px-4 py-2 rounded-xl">
-                <div className="p-1.5 bg-amber-50 rounded-lg">
-                  <ShieldCheck className="w-4 h-4 text-[#8B5A2B]" />
-                </div>
-                <div className="text-left">
-                  <div className="text-[9px] font-extrabold uppercase tracking-wider text-slate-700 leading-none">PACRA No.</div>
-                  <div className="text-xs font-medium text-slate-400 font-mono mt-0.5">120160004928</div>
-                </div>
-              </div>
+              <p className="text-slate-600 text-sm sm:text-base leading-relaxed font-normal">
+                Whether you are a contractor, developer, furniture manufacturer, retailer, government institution, or homeowner, Smart Age Innovations Ltd is committed to being your reliable supply partner.
+              </p>
             </div>
           </div>
         </div>
@@ -707,65 +687,7 @@ export const HomePage: React.FC<HomePageProps> = ({
         </div>
       </section>
 
-      {/* 7. WHY CHOOSE US & COMPLIANCE BADGES */}
-      <section className="py-20 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="space-y-10 text-center animate-fade-in">
-          <div className="space-y-4 max-w-2xl mx-auto">
-            <span className="text-xs font-bold text-[#8B5A2B] uppercase tracking-wider font-mono">
-              Corporate Credentials
-            </span>
-            <h2 className="text-3xl font-black text-slate-900 font-display leading-tight">
-              Fully Registered and Tax-Compliant Zambian Supplier
-            </h2>
-            <p className="text-slate-500 text-xs sm:text-sm leading-relaxed">
-              We understand that reputable corporate accounts and municipal boards require robust legal paperwork. Smart Age is 100% compliant with local statutory and fiscal regulations. We maintain active registrations with all required national bodies.
-            </p>
-          </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-left">
-            <div className="flex items-start space-x-3 p-4 bg-white rounded-2xl border border-slate-100">
-              <ShieldCheck className="w-5 h-5 text-[#8B5A2B] shrink-0 mt-0.5" />
-              <div className="space-y-1">
-                <h4 className="text-xs font-bold text-slate-900">PACRA Registered</h4>
-                <p className="text-[11px] text-slate-500 font-normal">Active company registration under No. 120160004928.</p>
-              </div>
-            </div>
-
-            <div className="flex items-start space-x-3 p-4 bg-white rounded-2xl border border-slate-100">
-              <CheckCircle className="w-5 h-5 text-[#8B5A2B] shrink-0 mt-0.5" />
-              <div className="space-y-1">
-                <h4 className="text-xs font-bold text-slate-900">ZRA Tax Clear</h4>
-                <p className="text-[11px] text-slate-500 font-normal">Active TPIN clearance on bulk importing and SADC transit.</p>
-              </div>
-            </div>
-
-            <div className="flex items-start space-x-3 p-4 bg-white rounded-2xl border border-slate-100">
-              <Award className="w-5 h-5 text-[#8B5A2B] shrink-0 mt-0.5" />
-              <div className="space-y-1">
-                <h4 className="text-xs font-bold text-slate-900">NAPSA Compliant</h4>
-                <p className="text-[11px] text-slate-500 font-normal">All carpentry and on-site staff hold active social insurance.</p>
-              </div>
-            </div>
-
-            <div className="flex items-start space-x-3 p-4 bg-white rounded-2xl border border-slate-100">
-              <UserCheck className="w-5 h-5 text-[#8B5A2B] shrink-0 mt-0.5" />
-              <div className="space-y-1">
-                <h4 className="text-xs font-bold text-slate-900">ZPPA Registered</h4>
-                <p className="text-[11px] text-slate-500 font-normal">Pre-approved for institutional tenders and bulk municipal contracts.</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="pt-2 flex justify-center">
-            <button
-              onClick={() => onNavigate('compliance')}
-              className="bg-[#8B5A2B] hover:bg-[#704823] text-white text-xs font-bold px-6 py-3 rounded-full uppercase tracking-widest transition-colors shadow cursor-pointer"
-            >
-              View Regulatory Documents
-            </button>
-          </div>
-        </div>
-      </section>
 
       {/* 8. TESTIMONIALS */}
       <section className="py-16 bg-[#F1F5F9]/60 border-t border-slate-200">
@@ -884,21 +806,7 @@ export const HomePage: React.FC<HomePageProps> = ({
         </div>
       </section>
 
-      {/* 10. BRANDS WE SUPPLY / TRUSTED LOGOS */}
-      <section className="bg-white py-12 border-t border-slate-100">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
-          <div className="text-[10px] font-bold text-slate-400 uppercase tracking-widest">
-            Direct Import Partner & Distributor for Premium Regional Brands
-          </div>
-          <div className="flex flex-wrap justify-center items-center gap-8 sm:gap-16 opacity-55 saturate-50 hover:opacity-85 transition-opacity">
-            <span className="font-display font-black text-[#8B5A2B] text-lg uppercase tracking-wider">RAIPLY MALAWI</span>
-            <span className="font-display font-black text-[#8B5A2B] text-lg uppercase tracking-wider">CHANTA WOOD</span>
-            <span className="font-display font-black text-slate-400 text-lg uppercase tracking-wider">ZAMBIA BUILDERS</span>
-            <span className="font-display font-black text-slate-400 text-lg uppercase tracking-wider">LUSAKA JOINERY</span>
-            <span className="font-display font-black text-slate-400 text-lg uppercase tracking-wider">COPPERBELT SCHOOLS</span>
-          </div>
-        </div>
-      </section>
+
 
       {/* Floating Back to Top Button */}
       {showScrollTop && (
