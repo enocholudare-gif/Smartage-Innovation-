@@ -108,14 +108,6 @@ export const HomePage: React.FC<HomePageProps> = ({
       page: 'products' as PageId,
     },
     {
-      image: 'https://cdn.phototourl.com/free/2026-07-10-7f14805d-b6b6-4b84-b12b-77b7be2d2ca3.jpg',
-      tag: 'Trims',
-      title: 'Elegant Skirting',
-      subtitle: 'Durable clear timber skirting boards to conceal joints and protect wall margins.',
-      ctaText: 'View Trims',
-      page: 'products' as PageId,
-    },
-    {
       image: 'https://cdn.phototourl.com/free/2026-07-10-b04db99f-42b5-4bb9-8f30-96dbe18ce894.png',
       tag: 'Custom Joinery',
       title: 'Corporate Furniture',
@@ -196,67 +188,16 @@ export const HomePage: React.FC<HomePageProps> = ({
     setCurrentSlide((prev) => (prev + 1) % carouselSlides.length);
   };
 
-  // Product category list representing the requested products
   const productCategories = [
-    {
-      name: 'MDF Boards',
-      desc: 'Our high-quality Medium Density Fibreboard (MDF) is a versatile and durable engineered wood product, ideal for furniture, interior design, and panelling.',
-      img: 'https://cdn.phototourl.com/free/2026-07-10-c65859ec-51f6-43c0-817c-178c85d5873b.png',
-    },
-    {
-      name: 'Laminated MDF Boards',
-      desc: 'MDF Laminated features a decorative laminate surface bonded to MDF, offering enhanced durability, scratch resistance, and moisture resistance.',
-      img: 'https://cdn.phototourl.com/member/2026-07-10-3bb01c76-554e-4736-b4ff-11fbc1ae91ae.webp',
-    },
-    {
-      name: 'Transmission & Fencing Poles',
-      desc: 'High-strength pressure-treated eucalyptus poles for electrical lines and agricultural fencing with long-lasting decay protection.',
-      img: 'https://cdn.phototourl.com/free/2026-07-10-b27809d5-7714-4396-a7b9-722e7fbc5ebc.jpg',
-    },
-    {
-      name: 'Briquettes & Pellets',
-      desc: 'Eco-friendly wood pellets and compressed briquettes designed for green energy heating and high calorific output with low ash residue.',
-      img: 'https://cdn.phototourl.com/free/2026-07-10-f2860ae6-4d68-4710-80c3-e1d615e74557.png',
-    },
-    {
-      name: 'PlyWood',
-      desc: 'Structural multi-ply hardwood plywood sheets bonded with durable structural grade adhesive, offering high screw-pullout resistance.',
-      img: 'https://cdn.phototourl.com/free/2026-07-10-32e9b491-9d84-4e46-ba67-0b8edeb519eb.png',
-    },
-    {
-      name: 'Film Face & Shutterply',
-      desc: 'Heavy-duty concrete shuttering plywood, cross-laminated and bonded with Weather-and-Boil-Proof (WBP) phenolic glue lines.',
-      img: 'https://cdn.phototourl.com/free/2026-07-10-3bd47a73-ad3b-4780-bdf7-51fdd8d22404.jpg',
-    },
-    {
-      name: 'Ceiling Boards',
-      desc: 'Lightweight decorative ceiling boards designed to offer beautiful thermal insulation and acoustic properties for homes and offices.',
-      img: 'https://cdn.phototourl.com/free/2026-07-10-cdc3ebf7-96eb-405a-abc5-2bd1e3658c10.jpg',
-    },
-    {
-      name: 'Skirting',
-      desc: 'Milled wooden skirting boards fitted along the bottom margins of walls to conceal floor joint expansion gaps neatly.',
-      img: 'https://cdn.phototourl.com/free/2026-07-10-7f14805d-b6b6-4b84-b12b-77b7be2d2ca3.jpg',
-    },
-    {
-      name: 'Doors',
-      desc: 'Solid core pine block entry doors finished with modern moisture-proof laminated skins to prevent door warping.',
-      img: 'https://cdn.phototourl.com/member/2026-07-10-f2b5e991-1826-4660-bbfa-df6be6ffecca.jpg',
-    },
-    {
-      name: 'Furniture and interior',
-      desc: 'Executive desks, school double-student tables, fitted office setups, and custom residential interior cabinetry.',
-      img: 'https://cdn.phototourl.com/free/2026-07-10-b04db99f-42b5-4bb9-8f30-96dbe18ce894.png',
-    },
-    {
-      name: 'Timber',
-      desc: 'Kiln-dried seasoned structural pine timber planks with extreme structural strength, perfect for rafter trusses.',
-      img: 'https://cdn.phototourl.com/free/2026-07-10-c5560cc3-777f-405c-bee1-7ae482d686d3.jpg',
-    },
     {
       name: 'Melamine board',
       desc: 'Double-sided Melamine laminated board with a moisture-resistant particle core, perfect for modern cabinetry.',
       img: 'https://cdn.phototourl.com/free/2026-07-10-93996190-4b12-446e-8919-37a949ed68b0.jpg',
+    },
+    {
+      name: 'Laminated MDF Boards',
+      desc: 'MDF Laminated features a decorative laminate surface bonded to MDF, offering enhanced durability, scratch resistance, and moisture resistance.',
+      img: 'https://cdn.phototourl.com/free/2026-07-11-19ad881e-6681-491f-8bd3-876567d385e8.jpg',
     },
     {
       name: 'PVC marble sheets',
@@ -264,15 +205,55 @@ export const HomePage: React.FC<HomePageProps> = ({
       img: 'https://cdn.phototourl.com/free/2026-07-10-be794c20-1abe-4c81-9996-1d0446e43c2a.jpg',
     },
     {
+      name: 'Fibre boards',
+      desc: 'High-density fibreboard (HDF) and acoustic softboards designed for structural backing and premium sound insulation.',
+      img: 'https://cdn.phototourl.com/free/2026-07-10-9e4660de-87bb-4993-8394-d261da6f48d2.jpg',
+    },
+    {
+      name: 'MDF Boards',
+      desc: 'Our high-quality Medium Density Fibreboard (MDF) is a versatile and durable engineered wood product, ideal for furniture, interior design, and panelling.',
+      img: 'https://cdn.phototourl.com/free/2026-07-10-c65859ec-51f6-43c0-817c-178c85d5873b.png',
+    },
+    {
+      name: 'Furniture and interior',
+      desc: 'Executive desks, school double-student tables, fitted office setups, and custom residential interior cabinetry.',
+      img: 'https://cdn.phototourl.com/free/2026-07-11-9479dce2-45d0-4bd8-88b8-71daa6412050.jpg',
+    },
+    {
       name: 'Quartz',
       desc: 'Premium engineered quartz stone slabs with flawless hardness and non-porous faces, perfect for high-end kitchen countertops.',
       img: 'https://cdn.phototourl.com/free/2026-07-10-fe00349c-6e33-4650-be62-8a241ac9233b.jpg',
     },
     {
-      name: 'Fibre boards',
-      desc: 'High-density fibreboard (HDF) and acoustic softboards designed for structural backing and premium sound insulation.',
-      img: 'https://cdn.phototourl.com/free/2026-07-10-9e4660de-87bb-4993-8394-d261da6f48d2.jpg',
+      name: 'Edging stripes',
+      desc: 'Premium edging stripes designed to perfectly match our boards and provide a seamless, durable finish.',
+      img: 'https://cdn.phototourl.com/free/2026-07-10-2de0c28c-22a9-453e-a66a-08b00ee7be48.jpg',
     },
+    {
+      name: 'Kitchen Units',
+      desc: 'Complete kitchen units and cabinets fabricated to the highest standards, ready for professional installation.',
+      img: 'https://cdn.phototourl.com/member/2026-07-10-01660fcd-da12-4cdd-a904-7a2c0622639f.jpg',
+    },
+    {
+      name: 'PlyWood',
+      desc: 'Structural multi-ply hardwood plywood sheets bonded with durable structural grade adhesive, offering high screw-pullout resistance.',
+      img: 'https://cdn.phototourl.com/free/2026-07-10-32e9b491-9d84-4e46-ba67-0b8edeb519eb.png',
+    },
+    {
+      name: 'Ceiling Boards',
+      desc: 'Lightweight decorative ceiling boards designed to offer beautiful thermal insulation and acoustic properties for homes and offices.',
+      img: 'https://cdn.phototourl.com/free/2026-07-10-cdc3ebf7-96eb-405a-abc5-2bd1e3658c10.jpg',
+    },
+    {
+      name: 'Doors',
+      desc: 'Solid core pine block entry doors finished with modern moisture-proof laminated skins to prevent door warping.',
+      img: 'https://cdn.phototourl.com/member/2026-07-10-f2b5e991-1826-4660-bbfa-df6be6ffecca.jpg',
+    },
+    {
+      name: 'Timber',
+      desc: 'Kiln-dried seasoned structural pine timber planks with extreme structural strength, perfect for rafter trusses.',
+      img: 'https://cdn.phototourl.com/free/2026-07-10-c5560cc3-777f-405c-bee1-7ae482d686d3.jpg',
+    }
   ];
 
   // Featured Products list

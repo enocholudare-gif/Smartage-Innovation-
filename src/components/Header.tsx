@@ -25,21 +25,19 @@ interface HeaderProps {
 }
 
 const dropdownCategories = [
-  'MDF Boards',
-  'Laminated MDF Boards',
-  'Transmission & Fencing Poles',
-  'Briquettes & Pellets',
-  'PlyWood',
-  'Film Face & Shutterply',
-  'Ceiling Boards',
-  'Skirting',
-  'Doors',
-  'Furniture and interior',
-  'Timber',
   'Melamine board',
+  'Laminated MDF Boards',
   'PVC marble sheets',
+  'Fibre boards',
+  'MDF Boards',
+  'Furniture and interior',
   'Quartz',
-  'Fibre boards'
+  'Edging stripes',
+  'Kitchen Units',
+  'PlyWood',
+  'Ceiling Boards',
+  'Doors',
+  'Timber'
 ];
 
 const machineCategories = [

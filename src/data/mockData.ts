@@ -115,6 +115,219 @@ export const STRATEGY_INFOGRAPHICS = [
 
 export const productsData: Product[] = [
   {
+    id: 'prod-16',
+    name: 'Melamine board',
+    category: 'Wood Boards & Panels',
+    subCategory: 'Melamine board',
+    shortDesc: 'Double-sided Melamine laminated board with a moisture-resistant particle core, perfect for modern cabinetry.',
+    fullDesc: 'Our premium Melamine boards feature a high-density wood particle or MDF core, covered on both sides with hard-wearing resin-infused decorative paper. It provides a highly durable, hygienic, and easy-to-clean surface ideal for kitchens, wardrobes, and modular shelving.',
+    image: 'https://cdn.phototourl.com/free/2026-07-10-93996190-4b12-446e-8919-37a949ed68b0.jpg',
+    detailImages: [
+      'https://cdn.phototourl.com/free/2026-07-10-d03c50c7-e2cf-48cd-8c97-dd3ccedbb845.jpg',
+      'https://cdn.phototourl.com/free/2026-07-10-929b5358-a268-489e-94eb-650c4857d1a0.jpg',
+      'https://cdn.phototourl.com/free/2026-07-10-504e7c68-e70c-4c94-aebe-a3617c5c52b2.jpg',
+      'https://cdn.phototourl.com/free/2026-07-10-b8035572-335a-4593-a52d-272db7040a05.jpg',
+      'https://cdn.phototourl.com/free/2026-07-10-0d99b3db-9421-4400-9269-0b6eace28fa8.jpg'
+    ],
+    features: [
+      'Pre-finished, scratch-resistant decorative face',
+      'Dual-sided uniform laminate finish',
+      'Extremely high resistance to staining and moisture',
+      'Perfect for clean, contemporary modular designs'
+    ],
+    specifications: [
+      {
+        label: 'Standard Size',
+        value: '2750 x 1830 mm'
+      },
+      {
+        label: 'Thickness Option',
+        value: '16 mm / 18 mm'
+      },
+      {
+        label: 'Core Material',
+        value: 'High-Density Particleboard or MDF'
+      },
+      {
+        label: 'Finish Variety',
+        value: 'Matte, Gloss, Textured Wood-Grain'
+      }
+    ],
+    applications: [
+      'Kitchen cabinets and shelves',
+      'Fitted bedroom wardrobes',
+      'Office workstation partitions',
+      'Modern sideboards and vanities'
+    ],
+    isFeatured: true
+  },
+  {
+    id: 'prod-02',
+    name: 'Laminated MDF Boards',
+    category: 'Wood Boards & Panels',
+    subCategory: 'Laminated MDF Boards',
+    shortDesc: 'Premium double-sided melamine laminated MDF boards presenting spectacular wood-grain and solid color textures.',
+    fullDesc: 'Double-sided laminated MDF boards engineered using a raw MDF substrate fused with decorative, resin-impregnated papers under thermal pressure. Designed to deliver an exceptionally durable, scratch-resistant face that stands up to heavy everyday wear in kitchens and corporate fit-outs.',
+    image: 'https://cdn.phototourl.com/free/2026-07-11-19ad881e-6681-491f-8bd3-876567d385e8.jpg',
+    detailImages: [
+      'https://cdn.phototourl.com/free/2026-07-11-19ad881e-6681-491f-8bd3-876567d385e8.jpg',
+      'https://cdn.phototourl.com/free/2026-07-10-2e79c64c-9fa2-4056-a05e-c89aefdfb519.jpg',
+      'https://cdn.phototourl.com/free/2026-07-10-d5b59393-2aff-4b4d-a024-87124722f9c6.jpg'
+    ],
+    features: [
+      'Fused double-sided melamine laminate overlay',
+      'Scratch, heat, stain, and moisture-resistant surface',
+      'Wide choice of premium wood-grains and solid gloss colors',
+      'Easy to wipe clean and maintain'
+    ],
+    specifications: [
+      {
+        label: 'Standard Dimensions',
+        value: '2750 x 1830 mm'
+      },
+      {
+        label: 'Thickness',
+        value: '16 mm / 18 mm'
+      },
+      {
+        label: 'Base Substrate',
+        value: 'MDF Core (E1 Standard)'
+      },
+      {
+        label: 'Finish Texture',
+        value: 'Super-Gloss, Textured Wood-Grain, Matte'
+      }
+    ],
+    applications: [
+      'Kitchen cabinetry faces',
+      'Fitted bedroom closets',
+      'Office workspace partitions',
+      'Modern reception counters'
+    ],
+    isFeatured: true
+  },
+  {
+    id: 'prod-20',
+    name: 'Edging stripes',
+    category: 'Wood Boards & Panels',
+    subCategory: 'Edging stripes',
+    shortDesc: 'Premium edging stripes designed to perfectly match our boards and provide a seamless, durable finish.',
+    fullDesc: 'High-quality PVC and ABS edge banding strips used to seal the exposed and raw edges of wood panels like MDF and plywood. Provides excellent protection against moisture and physical damage.',
+    image: 'https://cdn.phototourl.com/free/2026-07-10-2de0c28c-22a9-453e-a66a-08b00ee7be48.jpg',
+    detailImages: [
+      'https://cdn.phototourl.com/free/2026-07-10-2de0c28c-22a9-453e-a66a-08b00ee7be48.jpg'
+    ],
+    features: [
+      'Perfect color and texture match for our boards',
+      'High resistance to impact and abrasion',
+      'Flexible and easy to apply',
+      'Waterproof and durable'
+    ],
+    specifications: [
+      {
+        label: 'Thickness',
+        value: '0.4mm, 1mm, 2mm'
+      },
+      {
+        label: 'Width',
+        value: '22mm, 44mm'
+      },
+      {
+        label: 'Material',
+        value: 'PVC / ABS'
+      }
+    ],
+    applications: [
+      'Cabinet doors',
+      'Shelving',
+      'Office furniture',
+      'Wardrobes'
+    ],
+    isFeatured: true
+  },
+  {
+    id: 'prod-21',
+    name: 'Kitchen Units',
+    category: 'Furniture',
+    subCategory: 'Kitchen Units',
+    shortDesc: 'Complete kitchen units and cabinets fabricated to the highest standards, ready for professional installation.',
+    fullDesc: 'Our kitchen units are designed with modern aesthetics and practical functionality in mind. Built with premium moisture-resistant melamine boards and fitted with high-quality soft-close hinges and durable countertops.',
+    image: 'https://cdn.phototourl.com/member/2026-07-10-01660fcd-da12-4cdd-a904-7a2c0622639f.jpg',
+    detailImages: [
+      'https://cdn.phototourl.com/member/2026-07-10-01660fcd-da12-4cdd-a904-7a2c0622639f.jpg'
+    ],
+    features: [
+      'Moisture-resistant core materials',
+      'Soft-close heavy-duty hinges',
+      'Customizable layouts and finishes',
+      'Professional installation available'
+    ],
+    specifications: [
+      {
+        label: 'Cabinet Material',
+        value: '16mm/18mm Melamine Board'
+      },
+      {
+        label: 'Hardware',
+        value: 'Soft-close hinges and drawer runners'
+      },
+      {
+        label: 'Countertops',
+        value: 'Quartz or High-Pressure Laminate'
+      }
+    ],
+    applications: [
+      'Residential kitchens',
+      'Office pantries',
+      'Apartment complexes'
+    ],
+    isFeatured: true
+  },
+  {
+    id: 'prod-18',
+    name: 'Quartz',
+    category: 'Wood Boards & Panels',
+    subCategory: 'Quartz Countertops',
+    shortDesc: 'Premium engineered quartz stone slabs with flawless hardness, perfect for kitchen and vanity countertops.',
+    fullDesc: 'Our high-grade engineered Quartz surfaces are made by combining 93% natural crushed quartz stone crystals with 7% polymer resins. This process yields a completely non-porous, highly scratch-resistant, and stain-proof slab that offers unparalleled luxury and service life for interior surfaces.',
+    image: 'https://cdn.phototourl.com/free/2026-07-10-fe00349c-6e33-4650-be62-8a241ac9233b.jpg',
+    detailImages: [
+      'https://cdn.phototourl.com/free/2026-07-10-1e752e8d-2354-4380-bfec-5df19e593f03.jpg',
+      'https://cdn.phototourl.com/free/2026-07-10-94d4f1a5-efb6-41b4-9d93-fc0f89bb2a83.jpg'
+    ],
+    features: [
+      'Extremely hard surface (Mohs hardness scale 7)',
+      'Completely non-porous: naturally resists bacteria and stains',
+      'Requires zero sealing or annual maintenance polishing',
+      'Excellent resistance to kitchen heat and impacts'
+    ],
+    specifications: [
+      {
+        label: 'Slab Sizing',
+        value: '3200 x 1600 mm (Jumbo Slab)'
+      },
+      {
+        label: 'Thicknesses Available',
+        value: '20 mm / 30 mm'
+      },
+      {
+        label: 'Quartz Content',
+        value: '93% Pure Natural Quartz Crystal'
+      },
+      {
+        label: 'Density Rating',
+        value: '2.4 g/cm³'
+      }
+    ],
+    applications: [
+      'Kitchen worktops and island countertops',
+      'Bathroom vanity units',
+      'Bar counters and tabletop fittings',
+      'Luxury floor and stair tread tiles'
+    ],
+    isFeatured: true
+  },
+  {
     id: 'prod-01',
     name: 'MDF Boards',
     category: 'Wood Boards & Panels',
@@ -132,8 +345,14 @@ export const productsData: Product[] = [
       'Stable and durable'
     ],
     specifications: [
-      { label: 'Available Sizes', value: '2750 x 1830 MM (Custom sizes available on request)' },
-      { label: 'Available Thicknesses', value: '08 mm, 09mm, 12mm, 16mm, 18mm, 22mm' }
+      {
+        label: 'Available Sizes',
+        value: '2750 x 1830 MM (Custom sizes available on request)'
+      },
+      {
+        label: 'Available Thicknesses',
+        value: '08 mm, 09mm, 12mm, 16mm, 18mm, 22mm'
+      }
     ],
     applications: [
       'Furniture manufacturing',
@@ -141,34 +360,6 @@ export const productsData: Product[] = [
       'Wall panelling and partitions',
       'Interior design elements'
     ],
-    isFeatured: true
-  },
-  {
-    id: 'prod-02',
-    name: 'Laminated MDF Boards',
-    category: 'Wood Boards & Panels',
-    subCategory: 'Laminated MDF Boards',
-    shortDesc: 'Premium double-sided melamine laminated MDF boards presenting spectacular wood-grain and solid color textures.',
-    fullDesc: 'Double-sided laminated MDF boards engineered using a raw MDF substrate fused with decorative, resin-impregnated papers under thermal pressure. Designed to deliver an exceptionally durable, scratch-resistant face that stands up to heavy everyday wear in kitchens and corporate fit-outs.',
-    image: 'https://cdn.phototourl.com/member/2026-07-10-3bb01c76-554e-4736-b4ff-11fbc1ae91ae.webp',
-    detailImages: [
-      'https://cdn.phototourl.com/member/2026-07-10-3bb01c76-554e-4736-b4ff-11fbc1ae91ae.webp',
-      'https://cdn.phototourl.com/free/2026-07-10-2e79c64c-9fa2-4056-a05e-c89aefdfb519.jpg',
-      'https://cdn.phototourl.com/free/2026-07-10-d5b59393-2aff-4b4d-a024-87124722f9c6.jpg'
-    ],
-    features: [
-      'Fused double-sided melamine laminate overlay',
-      'Scratch, heat, stain, and moisture-resistant surface',
-      'Wide choice of premium wood-grains and solid gloss colors',
-      'Easy to wipe clean and maintain'
-    ],
-    specifications: [
-      { label: 'Standard Dimensions', value: '2750 x 1830 mm' },
-      { label: 'Thickness', value: '16 mm / 18 mm' },
-      { label: 'Base Substrate', value: 'MDF Core (E1 Standard)' },
-      { label: 'Finish Texture', value: 'Super-Gloss, Textured Wood-Grain, Matte' }
-    ],
-    applications: ['Kitchen cabinetry faces', 'Fitted bedroom closets', 'Office workspace partitions', 'Modern reception counters'],
     isFeatured: true
   },
   {
@@ -192,39 +383,29 @@ export const productsData: Product[] = [
       'Resistant to shrinkage, warping, and dimensional swelling'
     ],
     specifications: [
-      { label: 'Dimensions', value: '2440 x 1220 mm' },
-      { label: 'Thickness Range', value: '4mm, 6mm, 9mm, 12mm, 15mm, 18mm, 21mm' },
-      { label: 'Veneer Material', value: 'Tropical Mixed Hardwood' },
-      { label: 'Glue Grade', value: 'MR / Melamine Moisture-Resistant' }
+      {
+        label: 'Dimensions',
+        value: '2440 x 1220 mm'
+      },
+      {
+        label: 'Thickness Range',
+        value: '4mm, 6mm, 9mm, 12mm, 15mm, 18mm, 21mm'
+      },
+      {
+        label: 'Veneer Material',
+        value: 'Tropical Mixed Hardwood'
+      },
+      {
+        label: 'Glue Grade',
+        value: 'MR / Melamine Moisture-Resistant'
+      }
     ],
-    applications: ['Furniture cabinet backing', 'Underlayment flooring', 'Durable shelving frameworks', 'Packaging crates and boxes'],
-    isFeatured: true
-  },
-  {
-    id: 'prod-04',
-    name: 'Film Face & Shutterply',
-    category: 'Wood Boards & Panels',
-    subCategory: 'Film Face & Shutterply',
-    shortDesc: 'Heavy-duty water-resistant phenolic film-faced plywood designed for multiple concrete pours and civil scaffolding.',
-    fullDesc: 'High-density concrete shuttering plywood, cross-laminated and bonded with Weather-and-Boil-Proof (WBP) phenolic glue, finished with a smooth resin slip film. Deliver pristine concrete finishes and can be reused up to 15 times with proper on-site maintenance.',
-    image: 'https://cdn.phototourl.com/free/2026-07-10-3bd47a73-ad3b-4780-bdf7-51fdd8d22404.jpg',
-    detailImages: [
-      'https://cdn.phototourl.com/free/2026-07-10-7557ae0a-d57b-4b4d-9b63-c6192507861b.jpg',
-      'https://cdn.phototourl.com/free/2026-07-10-80cc4375-45b4-48c6-b8cc-f264ca3e133f.jpg'
+    applications: [
+      'Furniture cabinet backing',
+      'Underlayment flooring',
+      'Durable shelving frameworks',
+      'Packaging crates and boxes'
     ],
-    features: [
-      '100% waterproof phenolic glue lines',
-      'Calibrated core ply layers to resist heavy concrete loads',
-      'Edge sealed with acrylic paint to block moisture entry',
-      'Saves labor costs with high reuse potential'
-    ],
-    specifications: [
-      { label: 'Sheet Dimensions', value: '2440 x 1220 mm' },
-      { label: 'Thickness Options', value: '18 mm / 21 mm' },
-      { label: 'Bonding adhesive', value: 'WBP Phenolic Class' },
-      { label: 'Core Layers', value: 'Hardwood Multi-Ply (9-11 plies)' }
-    ],
-    applications: ['Concrete slab formwork', 'Bridge and column scaffolding', 'Foundation formwork boards', 'Heavy vehicle container floors'],
     isFeatured: true
   },
   {
@@ -246,35 +427,28 @@ export const productsData: Product[] = [
       'Provides subtle thermal and acoustic insulation'
     ],
     specifications: [
-      { label: 'Standard Dimensions', value: '2440 x 1220 mm' },
-      { label: 'Thickness', value: '4.0 mm / 6.0 mm' },
-      { label: 'Material', value: 'Lightweight Pine Core Fiberboard' },
-      { label: 'Edge Style', value: 'Square-Edge / Tongue-Groove Compatible' }
+      {
+        label: 'Standard Dimensions',
+        value: '2440 x 1220 mm'
+      },
+      {
+        label: 'Thickness',
+        value: '4.0 mm / 6.0 mm'
+      },
+      {
+        label: 'Material',
+        value: 'Lightweight Pine Core Fiberboard'
+      },
+      {
+        label: 'Edge Style',
+        value: 'Square-Edge / Tongue-Groove Compatible'
+      }
     ],
-    applications: ['Residential bedroom ceilings', 'Corporate office suspended ceiling grids', 'Pantry and corridor overhead paneling'],
-    isFeatured: false
-  },
-  {
-    id: 'prod-08',
-    name: 'Skirting',
-    category: 'Wood Boards & Panels',
-    subCategory: 'Skirting',
-    shortDesc: 'Durable wooden skirting boards designed to protect walls and trim the bottom joints of floors.',
-    fullDesc: 'Milled wooden skirting boards fitted along the bottom margins of walls to conceal floor joint expansion gaps and protect walls from kicks. Sourced from finger-jointed clear timber, presenting zero knots and a highly stable dimensional profile.',
-    image: 'https://cdn.phototourl.com/free/2026-07-10-7f14805d-b6b6-4b84-b12b-77b7be2d2ca3.jpg',
-    features: [
-      'Pre-sanded clean surface ready for staining or lacquering',
-      'Finger-jointed timber resists curving and structural bowing',
-      'Conceals messy flooring expansion joint gaps',
-      'Protects delicate plaster walls from foot-kicks and vacuum scuffs'
+    applications: [
+      'Residential bedroom ceilings',
+      'Corporate office suspended ceiling grids',
+      'Pantry and corridor overhead paneling'
     ],
-    specifications: [
-      { label: 'Dimensions', value: '19 x 75 mm / 19 x 100 mm / 19 x 150 mm' },
-      { label: 'Length', value: '3.0 m / 3.6 m' },
-      { label: 'Material Option', value: 'Finger-Jointed Clear Pine / Raw MDF' },
-      { label: 'Profiles', value: 'Bevel Edge, Bullnose, Colonial' }
-    ],
-    applications: ['Home floor transitions', 'Office wall bottom protection', 'Hotel lobby perimeter trimmings'],
     isFeatured: false
   },
   {
@@ -284,8 +458,9 @@ export const productsData: Product[] = [
     subCategory: 'Furniture and interior',
     shortDesc: 'Heavy-duty corporate office desks, institutional double-student tables, fitted wardrobes, and custom board desks.',
     fullDesc: 'Designed to survive decades of continuous use in schools, colleges, corporate offices, and institutions. Built using high-density melamine boards combined with heavy-duty tubular steel legs and solid, robust fittings.',
-    image: 'https://cdn.phototourl.com/free/2026-07-10-b04db99f-42b5-4bb9-8f30-96dbe18ce894.png',
+    image: 'https://cdn.phototourl.com/free/2026-07-11-9479dce2-45d0-4bd8-88b8-71daa6412050.jpg',
     detailImages: [
+      'https://cdn.phototourl.com/free/2026-07-11-9479dce2-45d0-4bd8-88b8-71daa6412050.jpg',
       'https://cdn.phototourl.com/free/2026-07-10-880480cb-302d-4880-93c0-9d45ade83c28.jpg',
       'https://placehold.co/600x400/eeeeee/999999?text=Kitchen+Cabinets',
       'https://placehold.co/600x400/eeeeee/999999?text=Office+Desks'
@@ -297,12 +472,28 @@ export const productsData: Product[] = [
       'Assembled by our expert carpentry teams at your premises'
     ],
     specifications: [
-      { label: 'Range', value: 'Executive Desks, Boardroom Desks, Double School Desks' },
-      { label: 'Joint Fittings', value: 'Heavy Ball-bearing Fasteners & Soft-Close Hydraulics' },
-      { label: 'Customization', value: 'Made-to-order sizing lists' },
-      { label: 'Load Limit', value: 'Over 150 kg structural weight capacity' }
+      {
+        label: 'Range',
+        value: 'Executive Desks, Boardroom Desks, Double School Desks'
+      },
+      {
+        label: 'Joint Fittings',
+        value: 'Heavy Ball-bearing Fasteners & Soft-Close Hydraulics'
+      },
+      {
+        label: 'Customization',
+        value: 'Made-to-order sizing lists'
+      },
+      {
+        label: 'Load Limit',
+        value: 'Over 150 kg structural weight capacity'
+      }
     ],
-    applications: ['School classroom fit-outs', 'Corporate boardrooms & workstations', 'Master bedroom closet fittings'],
+    applications: [
+      'School classroom fit-outs',
+      'Corporate boardrooms & workstations',
+      'Master bedroom closet fittings'
+    ],
     isFeatured: true
   },
   {
@@ -320,12 +511,29 @@ export const productsData: Product[] = [
       'Zero core voids prevents door sagging'
     ],
     specifications: [
-      { label: 'Standard Sizes', value: '2032 x 813 x 40 mm / 2032 x 1000 x 44 mm' },
-      { label: 'Weight', value: '35 - 45 kg (Solid Core)' },
-      { label: 'Core Wood', value: 'Kiln-Dried Pine Blockboard Core' },
-      { label: 'Skin Facing', value: 'American Walnut, Red Oak, Pine Veneers' }
+      {
+        label: 'Standard Sizes',
+        value: '2032 x 813 x 40 mm / 2032 x 1000 x 44 mm'
+      },
+      {
+        label: 'Weight',
+        value: '35 - 45 kg (Solid Core)'
+      },
+      {
+        label: 'Core Wood',
+        value: 'Kiln-Dried Pine Blockboard Core'
+      },
+      {
+        label: 'Skin Facing',
+        value: 'American Walnut, Red Oak, Pine Veneers'
+      }
     ],
-    applications: ['Main office entry doors', 'Classrooms & study halls', 'Hotel room security doors', 'Residential exterior entrances'],
+    applications: [
+      'Main office entry doors',
+      'Classrooms & study halls',
+      'Hotel room security doors',
+      'Residential exterior entrances'
+    ],
     isFeatured: true
   },
   {
@@ -349,12 +557,29 @@ export const productsData: Product[] = [
       'Fewer knots for higher bending stress tolerance'
     ],
     specifications: [
-      { label: 'Species', value: 'SADC Plantation Pine / Eucalyptus' },
-      { label: 'Sizing Options', value: '38 x 114 mm / 50 x 150 mm / 25 x 75 mm' },
-      { label: 'Length Range', value: '3.0 m / 3.6 m / 4.2 m / 4.8 m / 6.0 m' },
-      { label: 'Grade Standard', value: 'S5 / Structural Grade Quality' }
+      {
+        label: 'Species',
+        value: 'SADC Plantation Pine / Eucalyptus'
+      },
+      {
+        label: 'Sizing Options',
+        value: '38 x 114 mm / 50 x 150 mm / 25 x 75 mm'
+      },
+      {
+        label: 'Length Range',
+        value: '3.0 m / 3.6 m / 4.2 m / 4.8 m / 6.0 m'
+      },
+      {
+        label: 'Grade Standard',
+        value: 'S5 / Structural Grade Quality'
+      }
     ],
-    applications: ['Roof truss manufacturing', 'Heavy carpentry framing', 'Scaffolding support timbers', 'Industrial wood crates'],
+    applications: [
+      'Roof truss manufacturing',
+      'Heavy carpentry framing',
+      'Scaffolding support timbers',
+      'Industrial wood crates'
+    ],
     isFeatured: true
   },
   {
@@ -372,92 +597,30 @@ export const productsData: Product[] = [
       'Easy to laminate or veneer face'
     ],
     specifications: [
-      { label: 'Dimensions', value: '2440 x 1220 mm' },
-      { label: 'Thickness', value: '18 mm / 21 mm' },
-      { label: 'Core Assembly', value: 'Seasoned Pine Timber Strips' },
-      { label: 'Face Veneers', value: 'Sanded Poplar / Hardwood skins' }
+      {
+        label: 'Dimensions',
+        value: '2440 x 1220 mm'
+      },
+      {
+        label: 'Thickness',
+        value: '18 mm / 21 mm'
+      },
+      {
+        label: 'Core Assembly',
+        value: 'Seasoned Pine Timber Strips'
+      },
+      {
+        label: 'Face Veneers',
+        value: 'Sanded Poplar / Hardwood skins'
+      }
     ],
-    applications: ['Wide cabinet doors', 'Custom wardrobes & shelf bodies', 'Heavy-duty workstation counters', 'Interior office partitioning'],
+    applications: [
+      'Wide cabinet doors',
+      'Custom wardrobes & shelf bodies',
+      'Heavy-duty workstation counters',
+      'Interior office partitioning'
+    ],
     isFeatured: false
-  },
-  {
-    id: 'prod-14',
-    name: 'Briquettes & Pellets',
-    category: 'Wood Boards & Panels',
-    subCategory: 'Briquettes & Pellets',
-    shortDesc: 'Highly compressed eco-friendly wood briquettes and pellets for high-efficiency energy heating.',
-    fullDesc: 'Recycled, high-efficiency fuel compressed from organic clean wood sawdust. Offers consistent slow burning, low moisture, and exceptionally low ash-smoke outputs, providing a green heat source for homes and boilers.',
-    image: 'https://cdn.phototourl.com/free/2026-07-10-f2860ae6-4d68-4710-80c3-e1d615e74557.png',
-    features: [
-      '100% recycled carbon-neutral clean fuel source',
-      'Low moisture level (under 8%) means faster heat delivery',
-      'Extremely compact blocks save warehouse storage space',
-      'Produces minimal smoke and very low ash waste'
-    ],
-    specifications: [
-      { label: 'Calorific Value', value: 'Approx. 4800 kcal/kg' },
-      { label: 'Moisture Content', value: '6% - 8% max' },
-      { label: 'Ash Content', value: 'Less than 1.0%' },
-      { label: 'Packaging', value: '10 kg Poly Bags / 1 Ton Bulk Bags' }
-    ],
-    applications: ['Industrial steam boilers', 'Residential wood fireplaces', 'Greenhouse heating stoves'],
-    isFeatured: false
-  },
-  {
-    id: 'prod-15',
-    name: 'Transmission & Fencing Poles',
-    category: 'Wood Boards & Panels',
-    subCategory: 'Transmission & Fencing Poles',
-    shortDesc: 'High-strength CCA pressure-treated eucalyptus poles for electrical lines and agricultural fencing.',
-    fullDesc: 'Eucalyptus timber poles selected for straightness and pressure-treated with Chromated Copper Arsenate (CCA). This deep treatment forms a reliable barrier against termites, fungal rot, and water decay.',
-    image: 'https://cdn.phototourl.com/free/2026-07-10-b27809d5-7714-4396-a7b9-722e7fbc5ebc.jpg',
-    detailImages: [
-      'https://cdn.phototourl.com/free/2026-07-10-0a67e7f0-0576-4ac0-9b37-885fc04e92f8.jpg'
-    ],
-    features: [
-      'Pressure-treated with CCA according to international standards',
-      'CCA penetrates deeply to block rot and wood termites',
-      'Outstanding straightness and high structural load tolerance',
-      'Long lifespan of over 25 years in contact with soil'
-    ],
-    specifications: [
-      { label: 'Pole Lengths', value: '1.8m, 2.4m, 6.0m, 9.0m, 11m, 12m' },
-      { label: 'Diameter Range', value: '75-100mm, 100-125mm, 125-150mm, 150-175mm' },
-      { label: 'Wood Species', value: 'Grown Eucalyptus Grandis' },
-      { label: 'Treatment Standard', value: 'CCA H3 / H4 / H5 Ground Contact' }
-    ],
-    applications: ['Overhead electricity lines', 'Telecommunications wire poles', 'Farms & security fences', 'Agricultural scaffolding poles'],
-    isFeatured: true
-  },
-  {
-    id: 'prod-16',
-    name: 'Melamine board',
-    category: 'Wood Boards & Panels',
-    subCategory: 'Melamine board',
-    shortDesc: 'Double-sided Melamine laminated board with a moisture-resistant particle core, perfect for modern cabinetry.',
-    fullDesc: 'Our premium Melamine boards feature a high-density wood particle or MDF core, covered on both sides with hard-wearing resin-infused decorative paper. It provides a highly durable, hygienic, and easy-to-clean surface ideal for kitchens, wardrobes, and modular shelving.',
-    image: 'https://cdn.phototourl.com/free/2026-07-10-93996190-4b12-446e-8919-37a949ed68b0.jpg',
-    detailImages: [
-      'https://cdn.phototourl.com/free/2026-07-10-d03c50c7-e2cf-48cd-8c97-dd3ccedbb845.jpg',
-      'https://cdn.phototourl.com/free/2026-07-10-929b5358-a268-489e-94eb-650c4857d1a0.jpg',
-      'https://cdn.phototourl.com/free/2026-07-10-504e7c68-e70c-4c94-aebe-a3617c5c52b2.jpg',
-      'https://cdn.phototourl.com/free/2026-07-10-b8035572-335a-4593-a52d-272db7040a05.jpg',
-      'https://cdn.phototourl.com/free/2026-07-10-0d99b3db-9421-4400-9269-0b6eace28fa8.jpg'
-    ],
-    features: [
-      'Pre-finished, scratch-resistant decorative face',
-      'Dual-sided uniform laminate finish',
-      'Extremely high resistance to staining and moisture',
-      'Perfect for clean, contemporary modular designs'
-    ],
-    specifications: [
-      { label: 'Standard Size', value: '2750 x 1830 mm' },
-      { label: 'Thickness Option', value: '16 mm / 18 mm' },
-      { label: 'Core Material', value: 'High-Density Particleboard or MDF' },
-      { label: 'Finish Variety', value: 'Matte, Gloss, Textured Wood-Grain' }
-    ],
-    applications: ['Kitchen cabinets and shelves', 'Fitted bedroom wardrobes', 'Office workstation partitions', 'Modern sideboards and vanities'],
-    isFeatured: true
   },
   {
     id: 'prod-17',
@@ -479,39 +642,29 @@ export const productsData: Product[] = [
       'Easy and fast adhesive installation on flat walls'
     ],
     specifications: [
-      { label: 'Standard Dimensions', value: '2440 x 1220 mm' },
-      { label: 'Thickness', value: '3.0 mm' },
-      { label: 'Base Material', value: 'Stone Plastic Composite (SPC)' },
-      { label: 'Surface finish', value: 'High-Gloss UV Cured Mirror Finish' }
+      {
+        label: 'Standard Dimensions',
+        value: '2440 x 1220 mm'
+      },
+      {
+        label: 'Thickness',
+        value: '3.0 mm'
+      },
+      {
+        label: 'Base Material',
+        value: 'Stone Plastic Composite (SPC)'
+      },
+      {
+        label: 'Surface finish',
+        value: 'High-Gloss UV Cured Mirror Finish'
+      }
     ],
-    applications: ['Luxury bathroom wall claddings', 'TV backdrop feature walls', 'Hotel and office reception walls', 'Kitchen splashbacks (away from direct flames)'],
-    isFeatured: true
-  },
-  {
-    id: 'prod-18',
-    name: 'Quartz',
-    category: 'Wood Boards & Panels',
-    subCategory: 'Quartz Countertops',
-    shortDesc: 'Premium engineered quartz stone slabs with flawless hardness, perfect for kitchen and vanity countertops.',
-    fullDesc: 'Our high-grade engineered Quartz surfaces are made by combining 93% natural crushed quartz stone crystals with 7% polymer resins. This process yields a completely non-porous, highly scratch-resistant, and stain-proof slab that offers unparalleled luxury and service life for interior surfaces.',
-    image: 'https://cdn.phototourl.com/free/2026-07-10-fe00349c-6e33-4650-be62-8a241ac9233b.jpg',
-    detailImages: [
-      'https://cdn.phototourl.com/free/2026-07-10-1e752e8d-2354-4380-bfec-5df19e593f03.jpg',
-      'https://cdn.phototourl.com/free/2026-07-10-94d4f1a5-efb6-41b4-9d93-fc0f89bb2a83.jpg'
+    applications: [
+      'Luxury bathroom wall claddings',
+      'TV backdrop feature walls',
+      'Hotel and office reception walls',
+      'Kitchen splashbacks (away from direct flames)'
     ],
-    features: [
-      'Extremely hard surface (Mohs hardness scale 7)',
-      'Completely non-porous: naturally resists bacteria and stains',
-      'Requires zero sealing or annual maintenance polishing',
-      'Excellent resistance to kitchen heat and impacts'
-    ],
-    specifications: [
-      { label: 'Slab Sizing', value: '3200 x 1600 mm (Jumbo Slab)' },
-      { label: 'Thicknesses Available', value: '20 mm / 30 mm' },
-      { label: 'Quartz Content', value: '93% Pure Natural Quartz Crystal' },
-      { label: 'Density Rating', value: '2.4 g/cm³' }
-    ],
-    applications: ['Kitchen worktops and island countertops', 'Bathroom vanity units', 'Bar counters and tabletop fittings', 'Luxury floor and stair tread tiles'],
     isFeatured: true
   },
   {
@@ -529,12 +682,29 @@ export const productsData: Product[] = [
       'Eco-friendly panels compressed from premium recycled wood fibres'
     ],
     specifications: [
-      { label: 'Standard Dimensions', value: '2440 x 1220 mm' },
-      { label: 'Thickness Range', value: '3.0 mm (HDF Backing) to 12.0 mm (Softboard)' },
-      { label: 'Density', value: '800 - 900 kg/m³ (HDF)' },
-      { label: 'Formaldehyde Emission', value: 'E1 Safety Certified' }
+      {
+        label: 'Standard Dimensions',
+        value: '2440 x 1220 mm'
+      },
+      {
+        label: 'Thickness Range',
+        value: '3.0 mm (HDF Backing) to 12.0 mm (Softboard)'
+      },
+      {
+        label: 'Density',
+        value: '800 - 900 kg/m³ (HDF)'
+      },
+      {
+        label: 'Formaldehyde Emission',
+        value: 'E1 Safety Certified'
+      }
     ],
-    applications: ['Acoustic wall and ceiling insulation panels', 'Wardrobe and bookcase backings', 'Educational pin boards and noticeboards', 'Under-floor sound-dampening insulation'],
+    applications: [
+      'Acoustic wall and ceiling insulation panels',
+      'Wardrobe and bookcase backings',
+      'Educational pin boards and noticeboards',
+      'Under-floor sound-dampening insulation'
+    ],
     isFeatured: true
   }
 ];
