@@ -24,6 +24,29 @@ import { companyStats, SAIL_SERVICES, productsData, testimonials, faqs } from '.
 import woodenStationeryImage from '../assets/images/wooden_stationery_1783668516807.jpg';
 import safetyPpeImage from '../assets/images/safety_ppe_1783668545473.jpg';
 
+const ProductCardCarousel = ({ images, name }: { images: string[], name: string }) => {
+  const [idx, setIdx] = useState(0);
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setIdx((prev) => (prev + 1) % images.length);
+    }, 3000);
+    return () => clearInterval(timer);
+  }, [images.length]);
+  
+  return (
+    <div className="w-full h-full relative">
+      {images.map((img, i) => (
+        <img
+          key={i}
+          src={img}
+          alt={`${name} ${i + 1}`}
+          className={`absolute inset-0 w-full h-full object-cover transition-all duration-700 ${i === idx ? 'opacity-100 scale-100' : 'opacity-0 scale-105'}`}
+        />
+      ))}
+    </div>
+  );
+};
+
 interface HomePageProps {
   onNavigate: (page: PageId, category?: string) => void;
   onSelectProduct: (product: Product) => void;
@@ -218,6 +241,11 @@ export const HomePage: React.FC<HomePageProps> = ({
       name: 'Furniture and interior',
       desc: 'Executive desks, school double-student tables, fitted office setups, and custom residential interior cabinetry.',
       img: 'https://cdn.phototourl.com/free/2026-07-11-9479dce2-45d0-4bd8-88b8-71daa6412050.jpg',
+      images: [
+        'https://cdn.phototourl.com/free/2026-07-11-9479dce2-45d0-4bd8-88b8-71daa6412050.jpg',
+        'https://placehold.co/600x400/eeeeee/999999?text=Placeholder+1',
+        'https://placehold.co/600x400/eeeeee/999999?text=Placeholder+2'
+      ]
     },
     {
       name: 'Quartz',
@@ -403,11 +431,15 @@ export const HomePage: React.FC<HomePageProps> = ({
                 className="bg-white rounded-[2rem] shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col h-full cursor-pointer group border border-slate-100/80"
               >
                 <div className="aspect-[4/3] w-full overflow-hidden relative bg-slate-100">
-                  <img
-                    src={cat.img}
-                    alt={cat.name}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
+                  {cat.images ? (
+                    <ProductCardCarousel images={cat.images} name={cat.name} />
+                  ) : (
+                    <img
+                      src={cat.img}
+                      alt={cat.name}
+                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    />
+                  )}
                 </div>
                 <div className="bg-[#0B1220] p-6 text-white flex-1 flex flex-col justify-between rounded-b-[2rem]">
                   <div className="space-y-3">
