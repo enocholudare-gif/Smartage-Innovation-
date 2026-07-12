@@ -19,12 +19,12 @@ export const SustainabilityPage: React.FC<SustainabilityPageProps> = ({ onNaviga
       {/* Hero Header Banner */}
       <section className="bg-gradient-to-b from-white to-[#F8FAFC] py-20 border-b border-slate-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-4">
-          <div className="inline-block px-3 py-1 bg-emerald-50 border border-emerald-200 text-emerald-700 text-[10px] font-bold uppercase tracking-[0.2em] rounded">
+          <div className="inline-block px-3 py-1 bg-[#B58E3D]/10 border border-[#B58E3D]/20 text-[#B58E3D] text-[10px] font-bold uppercase tracking-[0.2em] rounded">
             Responsible Timber Stewardship
           </div>
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tighter text-slate-900 font-display">
-            Sustaining Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-[#8B5A2B]">Natural Ecosystems</span>
+            Sustaining Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#B58E3D] to-[#8B5A2B]">Natural Ecosystems</span>
           </h1>
 
           <p className="text-base text-slate-500 max-w-2xl leading-relaxed font-normal">
@@ -38,7 +38,7 @@ export const SustainabilityPage: React.FC<SustainabilityPageProps> = ({ onNaviga
         {/* Section 1: Responsible Sourcing */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <div className="inline-flex items-center space-x-2 text-xs font-bold text-emerald-600 uppercase tracking-wider font-mono">
+            <div className="inline-flex items-center space-x-2 text-xs font-bold text-[#B58E3D] uppercase tracking-wider font-mono">
               <Trees className="w-4 h-4" />
               <span>FSC & SADC Compliant Sourcing</span>
             </div>
@@ -54,11 +54,11 @@ export const SustainabilityPage: React.FC<SustainabilityPageProps> = ({ onNaviga
 
             <ul className="space-y-3 pt-2">
               <li className="flex items-center space-x-3 text-xs sm:text-sm text-slate-700">
-                <CheckCircle className="w-5 h-5 text-emerald-600 shrink-0" />
+                <CheckCircle className="w-5 h-5 text-[#B58E3D] shrink-0" />
                 <span>100% trace-audited plywood and veneers.</span>
               </li>
               <li className="flex items-center space-x-3 text-xs sm:text-sm text-slate-700">
-                <CheckCircle className="w-5 h-5 text-emerald-600 shrink-0" />
+                <CheckCircle className="w-5 h-5 text-[#B58E3D] shrink-0" />
                 <span>Zero support for unmanaged virgin forest clearance.</span>
               </li>
             </ul>
@@ -72,7 +72,7 @@ export const SustainabilityPage: React.FC<SustainabilityPageProps> = ({ onNaviga
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
               <div className="text-white space-y-1">
-                <p className="text-xs uppercase tracking-widest text-emerald-400 font-bold">Plantation Stewardship</p>
+                <p className="text-xs uppercase tracking-widest text-[#D4AF37] font-bold">Plantation Stewardship</p>
                 <h4 className="font-bold text-base">Reforested Commercial Pine & Fir</h4>
               </div>
             </div>
@@ -89,14 +89,14 @@ export const SustainabilityPage: React.FC<SustainabilityPageProps> = ({ onNaviga
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
               <div className="text-white space-y-1">
-                <p className="text-xs uppercase tracking-widest text-emerald-400 font-bold">Waste Minimization</p>
+                <p className="text-xs uppercase tracking-widest text-[#D4AF37] font-bold">Waste Minimization</p>
                 <h4 className="font-bold text-base">Algorithmic Sheet Sizing Yields</h4>
               </div>
             </div>
           </div>
 
           <div className="space-y-6">
-            <div className="inline-flex items-center space-x-2 text-xs font-bold text-emerald-600 uppercase tracking-wider font-mono">
+            <div className="inline-flex items-center space-x-2 text-xs font-bold text-[#B58E3D] uppercase tracking-wider font-mono">
               <Leaf className="w-4 h-4" />
               <span>Eco-Friendly Sizing Yard</span>
             </div>
@@ -112,7 +112,7 @@ export const SustainabilityPage: React.FC<SustainabilityPageProps> = ({ onNaviga
 
             <div className="grid grid-cols-2 gap-4 pt-2">
               <div className="p-4 bg-white rounded-2xl border border-slate-100 flex items-start space-x-3">
-                <Layers className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
+                <Layers className="w-5 h-5 text-[#B58E3D] shrink-0 mt-0.5" />
                 <div className="space-y-1">
                   <h4 className="text-xs font-bold text-slate-950">E1 Core Boards</h4>
                   <p className="text-[10px] text-slate-500 leading-normal">Low formaldehyde emissions for safe office air quality.</p>
@@ -120,7 +120,7 @@ export const SustainabilityPage: React.FC<SustainabilityPageProps> = ({ onNaviga
               </div>
 
               <div className="p-4 bg-white rounded-2xl border border-slate-100 flex items-start space-x-3">
-                <Recycle className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
+                <Recycle className="w-5 h-5 text-[#B58E3D] shrink-0 mt-0.5" />
                 <div className="space-y-1">
                   <h4 className="text-xs font-bold text-slate-950">95% Yield Sizing</h4>
                   <p className="text-[10px] text-slate-500 leading-normal">Precision panel layout minimises offcuts and scrap waste.</p>
@@ -133,7 +133,7 @@ export const SustainabilityPage: React.FC<SustainabilityPageProps> = ({ onNaviga
         {/* Section 3: Social & Institutional Contribution */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center lg:pt-10">
           <div className="space-y-6">
-            <div className="inline-flex items-center space-x-2 text-xs font-bold text-emerald-600 uppercase tracking-wider font-mono">
+            <div className="inline-flex items-center space-x-2 text-xs font-bold text-[#B58E3D] uppercase tracking-wider font-mono">
               <Heart className="w-4 h-4" />
               <span>Educational Investment</span>
             </div>
@@ -163,7 +163,7 @@ export const SustainabilityPage: React.FC<SustainabilityPageProps> = ({ onNaviga
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
               <div className="text-white space-y-1">
-                <p className="text-xs uppercase tracking-widest text-emerald-400 font-bold">Community Support</p>
+                <p className="text-xs uppercase tracking-widest text-[#D4AF37] font-bold">Community Support</p>
                 <h4 className="font-bold text-base">Long-lasting Institutional Desks</h4>
               </div>
             </div>
