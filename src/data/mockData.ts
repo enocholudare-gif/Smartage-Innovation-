@@ -204,84 +204,6 @@ export const productsData: Product[] = [
       'Office workspace partitions',
       'Modern reception counters'
     ],
-    isFeatured: true
-  },
-  {
-    id: 'prod-20',
-    name: 'Edging stripes',
-    category: 'Wood Boards & Panels',
-    subCategory: 'Edging stripes',
-    shortDesc: 'Premium edging stripes designed to perfectly match our boards and provide a seamless, durable finish.',
-    fullDesc: 'High-quality PVC and ABS edge banding strips used to seal the exposed and raw edges of wood panels like MDF and plywood. Provides excellent protection against moisture and physical damage.',
-    image: 'https://cdn.phototourl.com/free/2026-07-10-2de0c28c-22a9-453e-a66a-08b00ee7be48.jpg',
-    detailImages: [
-      'https://cdn.phototourl.com/free/2026-07-10-2de0c28c-22a9-453e-a66a-08b00ee7be48.jpg'
-    ],
-    features: [
-      'Perfect color and texture match for our boards',
-      'High resistance to impact and abrasion',
-      'Flexible and easy to apply',
-      'Waterproof and durable'
-    ],
-    specifications: [
-      {
-        label: 'Thickness',
-        value: '0.4mm, 1mm, 2mm'
-      },
-      {
-        label: 'Width',
-        value: '22mm, 44mm'
-      },
-      {
-        label: 'Material',
-        value: 'PVC / ABS'
-      }
-    ],
-    applications: [
-      'Cabinet doors',
-      'Shelving',
-      'Office furniture',
-      'Wardrobes'
-    ],
-    isFeatured: true
-  },
-  {
-    id: 'prod-21',
-    name: 'Kitchen Units',
-    category: 'Furniture',
-    subCategory: 'Kitchen Units',
-    shortDesc: 'Complete kitchen units and cabinets fabricated to the highest standards, ready for professional installation.',
-    fullDesc: 'Our kitchen units are designed with modern aesthetics and practical functionality in mind. Built with premium moisture-resistant melamine boards and fitted with high-quality soft-close hinges and durable countertops.',
-    image: 'https://cdn.phototourl.com/member/2026-07-10-01660fcd-da12-4cdd-a904-7a2c0622639f.jpg',
-    detailImages: [
-      'https://cdn.phototourl.com/member/2026-07-10-01660fcd-da12-4cdd-a904-7a2c0622639f.jpg'
-    ],
-    features: [
-      'Moisture-resistant core materials',
-      'Soft-close heavy-duty hinges',
-      'Customizable layouts and finishes',
-      'Professional installation available'
-    ],
-    specifications: [
-      {
-        label: 'Cabinet Material',
-        value: '16mm/18mm Melamine Board'
-      },
-      {
-        label: 'Hardware',
-        value: 'Soft-close hinges and drawer runners'
-      },
-      {
-        label: 'Countertops',
-        value: 'Quartz or High-Pressure Laminate'
-      }
-    ],
-    applications: [
-      'Residential kitchens',
-      'Office pantries',
-      'Apartment complexes'
-    ],
-    isFeatured: true
   },
   {
     id: 'prod-18',
@@ -409,49 +331,6 @@ export const productsData: Product[] = [
     isFeatured: true
   },
   {
-    id: 'prod-05',
-    name: 'Ceiling Boards',
-    category: 'Wood Boards & Panels',
-    subCategory: 'Ceiling Boards',
-    shortDesc: 'Lightweight, moisture-resistant decorative ceiling boards with clean edge profiles.',
-    fullDesc: 'Engineered decorative wooden ceiling boards designed to offer beautiful thermal and acoustic insulation. Perfect for residential homes and corporate office spaces, these boards are lightweight, resist sag, and are easy to paint.',
-    image: 'https://cdn.phototourl.com/free/2026-07-10-cdc3ebf7-96eb-405a-abc5-2bd1e3658c10.jpg',
-    detailImages: [
-      'https://cdn.phototourl.com/free/2026-07-10-99f79dc2-84ab-486f-8f12-0522b6450135.jpg',
-      'https://cdn.phototourl.com/free/2026-07-10-98cac08a-9cc4-4942-8e2b-a95c8f5e15e0.jpg'
-    ],
-    features: [
-      'Lightweight core simplifies overhead installation',
-      'Moisture-resistant boards that prevent sagging',
-      'Smooth, pre-primed faces ready for fast painting',
-      'Provides subtle thermal and acoustic insulation'
-    ],
-    specifications: [
-      {
-        label: 'Standard Dimensions',
-        value: '2440 x 1220 mm'
-      },
-      {
-        label: 'Thickness',
-        value: '4.0 mm / 6.0 mm'
-      },
-      {
-        label: 'Material',
-        value: 'Lightweight Pine Core Fiberboard'
-      },
-      {
-        label: 'Edge Style',
-        value: 'Square-Edge / Tongue-Groove Compatible'
-      }
-    ],
-    applications: [
-      'Residential bedroom ceilings',
-      'Corporate office suspended ceiling grids',
-      'Pantry and corridor overhead paneling'
-    ],
-    isFeatured: false
-  },
-  {
     id: 'prod-09',
     name: 'Furniture and interior',
     category: 'Furniture',
@@ -533,52 +412,6 @@ export const productsData: Product[] = [
       'Classrooms & study halls',
       'Hotel room security doors',
       'Residential exterior entrances'
-    ],
-    isFeatured: true
-  },
-  {
-    id: 'prod-11',
-    name: 'Timber',
-    category: 'Wood Boards & Panels',
-    subCategory: 'Timber',
-    shortDesc: 'Kiln-dried seasoned structural pine timber planks with extreme structural strength.',
-    fullDesc: 'Premium seasoned structural pine lumber kiln-dried to moisture levels below 12% to prevent warping, twisting, or splits. Highly optimized for rafters, roof trusses, structural framing, and general building structures.',
-    image: 'https://cdn.phototourl.com/free/2026-07-10-c5560cc3-777f-405c-bee1-7ae482d686d3.jpg',
-    detailImages: [
-      'https://cdn.phototourl.com/free/2026-07-10-ad1c10db-850b-4d54-82a8-ef709b0e4b6f.jpg',
-      'https://cdn.phototourl.com/free/2026-07-10-f310ae22-5a7e-462b-b849-3b5d526d9731.jpg',
-      'https://cdn.phototourl.com/free/2026-07-10-2fb30e85-6676-43df-a138-115ea5594c70.jpg',
-      'https://cdn.phototourl.com/free/2026-07-10-e705dd09-6203-41af-a174-2b9bcfce786b.jpg'
-    ],
-    features: [
-      'Kiln-dried down to 10% - 14% moisture content',
-      'Milled with excellent straightness and uniform widths',
-      'Sustainably harvested from certified plantation yards',
-      'Fewer knots for higher bending stress tolerance'
-    ],
-    specifications: [
-      {
-        label: 'Species',
-        value: 'SADC Plantation Pine / Eucalyptus'
-      },
-      {
-        label: 'Sizing Options',
-        value: '38 x 114 mm / 50 x 150 mm / 25 x 75 mm'
-      },
-      {
-        label: 'Length Range',
-        value: '3.0 m / 3.6 m / 4.2 m / 4.8 m / 6.0 m'
-      },
-      {
-        label: 'Grade Standard',
-        value: 'S5 / Structural Grade Quality'
-      }
-    ],
-    applications: [
-      'Roof truss manufacturing',
-      'Heavy carpentry framing',
-      'Scaffolding support timbers',
-      'Industrial wood crates'
     ],
     isFeatured: true
   },

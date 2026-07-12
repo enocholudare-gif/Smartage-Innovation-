@@ -32,12 +32,8 @@ const dropdownCategories = [
   'MDF Boards',
   'Furniture and interior',
   'Quartz',
-  'Edging stripes',
-  'Kitchen Units',
   'PlyWood',
-  'Ceiling Boards',
-  'Doors',
-  'Timber'
+  'Doors'
 ];
 
 const machineCategories = [

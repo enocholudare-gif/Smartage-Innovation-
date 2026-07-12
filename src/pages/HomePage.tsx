@@ -225,34 +225,14 @@ export const HomePage: React.FC<HomePageProps> = ({
       img: 'https://cdn.phototourl.com/free/2026-07-10-fe00349c-6e33-4650-be62-8a241ac9233b.jpg',
     },
     {
-      name: 'Edging stripes',
-      desc: 'Premium edging stripes designed to perfectly match our boards and provide a seamless, durable finish.',
-      img: 'https://cdn.phototourl.com/free/2026-07-10-2de0c28c-22a9-453e-a66a-08b00ee7be48.jpg',
-    },
-    {
-      name: 'Kitchen Units',
-      desc: 'Complete kitchen units and cabinets fabricated to the highest standards, ready for professional installation.',
-      img: 'https://cdn.phototourl.com/member/2026-07-10-01660fcd-da12-4cdd-a904-7a2c0622639f.jpg',
-    },
-    {
       name: 'PlyWood',
       desc: 'Structural multi-ply hardwood plywood sheets bonded with durable structural grade adhesive, offering high screw-pullout resistance.',
       img: 'https://cdn.phototourl.com/free/2026-07-10-32e9b491-9d84-4e46-ba67-0b8edeb519eb.png',
     },
     {
-      name: 'Ceiling Boards',
-      desc: 'Lightweight decorative ceiling boards designed to offer beautiful thermal insulation and acoustic properties for homes and offices.',
-      img: 'https://cdn.phototourl.com/free/2026-07-10-cdc3ebf7-96eb-405a-abc5-2bd1e3658c10.jpg',
-    },
-    {
       name: 'Doors',
       desc: 'Solid core pine block entry doors finished with modern moisture-proof laminated skins to prevent door warping.',
       img: 'https://cdn.phototourl.com/member/2026-07-10-f2b5e991-1826-4660-bbfa-df6be6ffecca.jpg',
-    },
-    {
-      name: 'Timber',
-      desc: 'Kiln-dried seasoned structural pine timber planks with extreme structural strength, perfect for rafter trusses.',
-      img: 'https://cdn.phototourl.com/free/2026-07-10-c5560cc3-777f-405c-bee1-7ae482d686d3.jpg',
     }
   ];
 
