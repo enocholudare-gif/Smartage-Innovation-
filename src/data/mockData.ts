@@ -507,7 +507,7 @@ export const productsData: Product[] = [
     subCategory: 'Fibre boards',
     shortDesc: 'High-density fibreboard (HDF) and softboards for acoustic insulation, pinning boards, and backing sheets.',
     fullDesc: 'Our engineered Fibre Boards range includes High-Density Fibreboard (HDF) for high-impact backing panels and soft acoustic panels. They are produced by combining wood fibres under heat and intense pressure, delivering uniform structural integrity and sound insulation.',
-    image: 'https://cdn.phototourl.com/free/2026-07-10-9e4660de-87bb-4993-8394-d261da6f48d2.jpg',
+    image: 'https://cdn.phototourl.com/free/2026-07-12-083398ee-6d80-4d83-a322-0d57d35d5dba.jpg',
     features: [
       'High density and stability to prevent warping or bowing',
       'Excellent acoustic absorption and thermal resistance properties',

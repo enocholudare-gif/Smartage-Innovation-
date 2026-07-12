@@ -230,7 +230,7 @@ export const HomePage: React.FC<HomePageProps> = ({
     {
       name: 'Fibre boards',
       desc: 'High-density fibreboard (HDF) and acoustic softboards designed for structural backing and premium sound insulation.',
-      img: 'https://cdn.phototourl.com/free/2026-07-10-9e4660de-87bb-4993-8394-d261da6f48d2.jpg',
+      img: 'https://cdn.phototourl.com/free/2026-07-12-083398ee-6d80-4d83-a322-0d57d35d5dba.jpg',
     },
     {
       name: 'MDF Boards',
@@ -240,11 +240,15 @@ export const HomePage: React.FC<HomePageProps> = ({
     {
       name: 'Furniture and interior',
       desc: 'Executive desks, school double-student tables, fitted office setups, and custom residential interior cabinetry.',
-      img: 'https://cdn.phototourl.com/free/2026-07-11-9479dce2-45d0-4bd8-88b8-71daa6412050.jpg',
+      img: 'https://cdn.phototourl.com/free/2026-07-12-7831fe2c-65a3-4cdf-beda-3b415434cf98.jpg',
       images: [
-        'https://cdn.phototourl.com/free/2026-07-11-9479dce2-45d0-4bd8-88b8-71daa6412050.jpg',
-        'https://placehold.co/600x400/eeeeee/999999?text=Placeholder+1',
-        'https://placehold.co/600x400/eeeeee/999999?text=Placeholder+2'
+        'https://cdn.phototourl.com/free/2026-07-12-7831fe2c-65a3-4cdf-beda-3b415434cf98.jpg',
+        'https://cdn.phototourl.com/free/2026-07-12-77e1a03f-6cbf-4bc2-9d34-70f32bf1e171.jpg',
+        'https://cdn.phototourl.com/free/2026-07-12-9e0724bf-9f0f-4d6a-850d-3a753317c891.jpg',
+        'https://cdn.phototourl.com/free/2026-07-12-ad09d5f2-f342-4283-a652-683836af44cb.jpg',
+        'https://cdn.phototourl.com/free/2026-07-12-d15bf313-b45f-419e-ad50-22d77c0a17f1.jpg',
+        'https://cdn.phototourl.com/free/2026-07-12-7ecde554-c10a-4170-a025-08faa37367a8.jpg',
+        'https://cdn.phototourl.com/free/2026-07-12-5a02ecdd-63cf-466b-a8df-a84ae6fff374.jpg'
       ]
     },
     {
