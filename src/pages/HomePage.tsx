@@ -81,120 +81,17 @@ export const HomePage: React.FC<HomePageProps> = ({
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  const carouselSlides = [
-    {
-      image: 'https://cdn.phototourl.com/free/2026-07-10-c65859ec-51f6-43c0-817c-178c85d5873b.png',
-      tag: 'Raw Boards',
-      title: 'Premium Raw Boards',
-      subtitle: 'High-density fibreboards and particle boards for smooth and reliable manufacturing.',
-      ctaText: 'View Boards',
-      page: 'products' as PageId,
-    },
-    {
-      image: 'https://cdn.phototourl.com/free/2026-07-10-2e79c64c-9fa2-4056-a05e-c89aefdfb519.jpg',
-      tag: 'Laminated Panels',
-      title: 'Decorative Surfaces',
-      subtitle: 'Double-sided laminated panels offering exceptional scratch and moisture resistance.',
-      ctaText: 'Explore Surfaces',
-      page: 'products' as PageId,
-    },
-    {
-      image: 'https://cdn.phototourl.com/free/2026-07-10-b27809d5-7714-4396-a7b9-722e7fbc5ebc.jpg',
-      tag: 'Treated Timber',
-      title: 'Transmission Poles',
-      subtitle: 'Pressure-treated eucalyptus poles built for heavy electrical lines and agricultural fencing.',
-      ctaText: 'View Timber',
-      page: 'products' as PageId,
-    },
-    {
-      image: 'https://cdn.phototourl.com/free/2026-07-10-32e9b491-9d84-4e46-ba67-0b8edeb519eb.png',
-      tag: 'Plywood',
-      title: 'Structural Plywood',
-      subtitle: 'Cross-laminated multi-ply sheets engineered for superior load-bearing strength.',
-      ctaText: 'Browse Plywood',
-      page: 'products' as PageId,
-    },
-    {
-      image: 'https://cdn.phototourl.com/free/2026-07-10-3bd47a73-ad3b-4780-bdf7-51fdd8d22404.jpg',
-      tag: 'Formwork',
-      title: 'Construction Shutterply',
-      subtitle: 'Water-resistant phenolic film-faced plywood built for heavy-duty concrete pouring.',
-      ctaText: 'View Shutterply',
-      page: 'products' as PageId,
-    },
-    {
-      image: 'https://cdn.phototourl.com/free/2026-07-10-cdc3ebf7-96eb-405a-abc5-2bd1e3658c10.jpg',
-      tag: 'Interiors',
-      title: 'Acoustic Ceilings',
-      subtitle: 'Lightweight ceiling boards providing excellent thermal and sound insulation.',
-      ctaText: 'Explore Interiors',
-      page: 'products' as PageId,
-    },
-    {
-      image: 'https://cdn.phototourl.com/free/2026-07-10-b04db99f-42b5-4bb9-8f30-96dbe18ce894.png',
-      tag: 'Custom Joinery',
-      title: 'Corporate Furniture',
-      subtitle: 'Heavy-duty office desks and institutional tables crafted for long-term use.',
-      ctaText: 'View Furniture',
-      page: 'products' as PageId,
-    },
-    {
-      image: 'https://cdn.phototourl.com/free/2026-07-10-c5560cc3-777f-405c-bee1-7ae482d686d3.jpg',
-      tag: 'Lumber',
-      title: 'Structural Timber',
-      subtitle: 'Kiln-dried seasoned pine wood optimized for rafters and heavy construction.',
-      ctaText: 'Browse Lumber',
-      page: 'products' as PageId,
-    },
-    {
-      image: 'https://cdn.phototourl.com/free/2026-07-10-93996190-4b12-446e-8919-37a949ed68b0.jpg',
-      tag: 'Cabinetry',
-      title: 'Melamine Boards',
-      subtitle: 'Hygienic, easy-to-clean decorative boards ideal for kitchen and wardrobe fittings.',
-      ctaText: 'View Melamine',
-      page: 'products' as PageId,
-    },
-    {
-      image: 'https://cdn.phototourl.com/free/2026-07-10-be794c20-1abe-4c81-9996-1d0446e43c2a.jpg',
-      tag: 'Wall Panels',
-      title: 'Luxury Marble Sheets',
-      subtitle: 'High-gloss SPC wall cladding delivering realistic stone textures and waterproofing.',
-      ctaText: 'Explore Panels',
-      page: 'products' as PageId,
-    },
-    {
-      image: 'https://cdn.phototourl.com/free/2026-07-10-fe00349c-6e33-4650-be62-8a241ac9233b.jpg',
-      tag: 'Surfaces',
-      title: 'Engineered Quartz',
-      subtitle: 'Extremely hard and non-porous stone slabs for premium kitchen countertops.',
-      ctaText: 'View Quartz',
-      page: 'products' as PageId,
-    },
-    {
-      image: 'https://cdn.phototourl.com/free/2026-07-10-9e4660de-87bb-4993-8394-d261da6f48d2.jpg',
-      tag: 'Backing Boards',
-      title: 'High Density Fibreboard',
-      subtitle: 'Uniform and stable panels perfect for backing sheets and acoustic wall insulation.',
-      ctaText: 'View HDF',
-      page: 'products' as PageId,
-    },
-    {
-      image: 'https://cdn.phototourl.com/free/2026-07-10-11c51cc2-5782-4ac1-bc92-c18615024df0.jpg',
-      tag: 'Fit-Outs',
-      title: 'Cabinetry Installation',
-      subtitle: 'Full turnkey interior installations handled directly at your corporate premises.',
-      ctaText: 'Explore Services',
-      page: 'about' as PageId,
-    },
-    {
-      image: 'https://cdn.phototourl.com/free/2026-07-10-2de0c28c-22a9-453e-a66a-08b00ee7be48.jpg',
-      tag: 'Machining',
-      title: 'Precision Sizing',
-      subtitle: 'Professional cutting and edge-banding to seal out moisture completely.',
-      ctaText: 'View Services',
-      page: 'about' as PageId,
-    },
-  ];
+  // Featured Products list
+  const featuredProducts = productsData.filter(p => p.isFeatured);
+
+  const carouselSlides = featuredProducts.map(product => ({
+    image: product.image,
+    tag: product.subCategory || product.category,
+    title: product.name,
+    subtitle: product.shortDesc,
+    ctaText: 'View Product',
+    page: 'products' as PageId,
+  }));
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -268,8 +165,7 @@ export const HomePage: React.FC<HomePageProps> = ({
     }
   ];
 
-  // Featured Products list
-  const featuredProducts = productsData.filter(p => p.isFeatured);
+
 
   // Active FAQ state
   const [activeFaq, setActiveFaq] = useState<string | null>(null);
