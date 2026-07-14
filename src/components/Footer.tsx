@@ -41,7 +41,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
     { id: 'about', label: 'About Us' },
     { id: 'products', label: 'Products' },
     { id: 'machines', label: 'Machines' },
-    { id: 'wood-accessories', label: 'Wood Accessories' },
+    { id: 'wood-accessories', label: 'Accessories and Fittings' },
     { id: 'sustainability', label: 'Sustainability' },
     { id: 'gallery', label: 'Gallery' },
     { id: 'news', label: 'News' },
@@ -152,15 +152,15 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
             <div className="pt-2 text-xs space-y-1.5 text-slate-400">
               <p className="flex items-center space-x-2">
                 <MapPin className="w-3.5 h-3.5 text-[#B58E3D]" />
-                <span>Great East Rd, Lusaka, Zambia</span>
+                <span>plot 3169, Mukwa Road, Light industrial Area, Buseko, Lusaka</span>
               </p>
               <p className="flex items-center space-x-2">
                 <Phone className="w-3.5 h-3.5 text-[#B58E3D]" />
-                <span>+260 977 889900</span>
+                <span>+260 978708354 | +260 950311205</span>
               </p>
               <p className="flex items-center space-x-2">
                 <Mail className="w-3.5 h-3.5 text-[#B58E3D]" />
-                <span>contact@sail.co.zm</span>
+                <span>enquiries@sailltd.com</span>
               </p>
             </div>
           </div>

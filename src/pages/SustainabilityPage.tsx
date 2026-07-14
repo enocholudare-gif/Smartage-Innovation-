@@ -157,7 +157,7 @@ export const SustainabilityPage: React.FC<SustainabilityPageProps> = ({ onNaviga
 
           <div className="rounded-3xl overflow-hidden aspect-video relative shadow-xl">
             <img 
-              src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=800&q=80" 
+              src="https://cdn.phototourl.com/free/2026-07-09-58459c6a-c8f3-4717-ab4d-d23d7edea158.jpg" 
               alt="Classroom Education" 
               className="w-full h-full object-cover"
             />

@@ -14,7 +14,7 @@ export const MachinesPage: React.FC<MachinesPageProps> = ({ onAddToQuote, onNavi
       name: 'High-Precision Automatic Edge Bending Machine',
       shortDesc: 'Continuous heavy-duty edge-bander with pre-milling, dual gluing, fine trimming, and buffing stations.',
       fullDesc: 'Engineered for high-volume commercial panel production. This automatic edge banding machine applies wood veneer, PVC, or ABS edge banding strips on straight panel edges. Equipped with high-torque premilling motors to perfect board borders before dual-temperature glue application.',
-      image: 'https://cdn.phototourl.com/free/2026-07-10-447a4edf-a34f-4931-8053-d13810925469.webp',
+      image: 'https://cdn.phototourl.com/free/2026-07-14-ab7555b5-67e8-4522-942b-f255edcc08f0.jpg',
       specs: [
         { label: 'Feed Speed', value: '12 - 20 m/min' },
         { label: 'Panel Thickness', value: '10 - 60 mm' },
@@ -30,10 +30,10 @@ export const MachinesPage: React.FC<MachinesPageProps> = ({ onAddToQuote, onNavi
     },
     {
       id: 'mac-02',
-      name: 'Heavy-Duty Sliding Table Panel Saw',
-      shortDesc: 'Calibrated industrial sliding panel saw with scoring blade for chip-free cutting of laminated MDF sheets.',
+      name: 'Heavy-Duty Cutting Machine',
+      shortDesc: 'Calibrated industrial cutting machine with scoring blade for chip-free cutting of laminated MDF sheets.',
       fullDesc: 'Designed to cut heavy laminated boards and wood panels to exact dimensions. Features a heavy-duty sliding carriage moving on precision ground steel guide bars, combined with an independent scoring blade motor to completely prevent underside laminate breakout.',
-      image: 'https://cdn.phototourl.com/free/2026-07-10-9642c9e4-2aaf-4e0f-bcc5-8f99925533cc.jpg',
+      image: 'https://cdn.phototourl.com/free/2026-07-14-6ce8c329-5f4e-4dfe-af23-6f2fd7794fb1.jpg',
       specs: [
         { label: 'Sliding Table Length', value: '3200 mm' },
         { label: 'Max Cutting Width', value: '1250 mm' },
@@ -45,25 +45,6 @@ export const MachinesPage: React.FC<MachinesPageProps> = ({ onAddToQuote, onNavi
         'Separate high-speed motor for scoring blade',
         'Manual tilt scale adjustment from 0 to 45 degrees',
         'Dust-extraction hood for a clean breathing zone'
-      ]
-    },
-    {
-      id: 'mac-03',
-      name: 'Computerized CNC Router Center',
-      shortDesc: 'Automated 3-axis CNC nesting and routing center for complex panel carving, milling, and nesting operations.',
-      fullDesc: 'An industrial CNC machining station built for high-accuracy woodworking. It can handle complete nesting, drilling, engraving, and profile-milling of raw MDF, plywood, blockboard, and solid pine wood panels with zero manual intervention.',
-      image: 'https://images.unsplash.com/photo-1616401784845-180882ba9ba8?auto=format&fit=crop&w=600&q=80',
-      specs: [
-        { label: 'Working Table Area', value: '1300 x 2500 mm' },
-        { label: 'Spindle Power', value: '9.0 kW Air-Cooled Spindle' },
-        { label: 'Vacuum Pump', value: '7.5 kW Liquid-Ring' },
-        { label: 'Max Travel Speed', value: '45 m/min' }
-      ],
-      features: [
-        'High-suction vacuum grid table with multiple zone control',
-        'Automatic rotary carousel tool-changer (8 tools)',
-        'Heavy helical rack-and-pinion transmission systems',
-        'Syntec industrial control interface'
       ]
     }
   ];

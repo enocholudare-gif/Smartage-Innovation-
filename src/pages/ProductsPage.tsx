@@ -69,10 +69,6 @@ export const ProductsPage: React.FC<ProductsPageProps> = ({
     { label: 'Furniture & Interiors', value: 'Furniture', icon: <Home className="w-3.5 h-3.5" /> },
     { label: 'Boards & Panels', value: 'Wood Boards & Panels', icon: <Layers className="w-3.5 h-3.5" /> },
     { label: 'Timber Doors', value: 'Doors', icon: <SquareDot className="w-3.5 h-3.5" /> },
-    { label: 'Stationery Supplies', value: 'Stationery', icon: <FileText className="w-3.5 h-3.5" /> },
-    { label: 'Hardware Products', value: 'Hardware', icon: <Wrench className="w-3.5 h-3.5" /> },
-    { label: 'PPE Gear', value: 'PPE', icon: <ShieldCheck className="w-3.5 h-3.5" /> },
-    { label: 'Power Tools', value: 'Power Tools', icon: <ShoppingBag className="w-3.5 h-3.5" /> },
   ];
 
   const filteredProducts = productsData.filter((product) => {

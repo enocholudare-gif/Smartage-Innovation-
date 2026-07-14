@@ -117,17 +117,22 @@ export const HomePage: React.FC<HomePageProps> = ({
     {
       name: 'Laminated MDF Boards',
       desc: 'MDF Laminated features a decorative laminate surface bonded to MDF, offering enhanced durability, scratch resistance, and moisture resistance.',
-      img: 'https://cdn.phototourl.com/free/2026-07-11-19ad881e-6681-491f-8bd3-876567d385e8.jpg',
+      img: 'https://cdn.phototourl.com/free/2026-07-14-aa157a95-659c-4bf4-a804-41efd0abda8b.jpg',
+      images: [
+        'https://cdn.phototourl.com/free/2026-07-14-aa157a95-659c-4bf4-a804-41efd0abda8b.jpg',
+        'https://cdn.phototourl.com/free/2026-07-14-3b040c3a-225b-43ed-ad19-1c5445fd5ed5.jpg',
+        'https://cdn.phototourl.com/free/2026-07-14-d7ccf44e-0854-44e8-9237-74d641be341f.jpg'
+      ]
     },
     {
       name: 'PVC marble sheets',
       desc: 'High-gloss stone plastic composite (SPC) wall panels with realistic marble textures for luxury water-resistant interiors.',
-      img: 'https://cdn.phototourl.com/free/2026-07-10-be794c20-1abe-4c81-9996-1d0446e43c2a.jpg',
+      img: 'https://cdn.phototourl.com/free/2026-07-14-b9921ecc-e612-4932-960d-94b1f8db8f99.jpg',
     },
     {
       name: 'Fibre boards',
       desc: 'High-density fibreboard (HDF) and acoustic softboards designed for structural backing and premium sound insulation.',
-      img: 'https://cdn.phototourl.com/free/2026-07-12-083398ee-6d80-4d83-a322-0d57d35d5dba.jpg',
+      img: 'https://cdn.phototourl.com/free/2026-07-14-f1040c01-de4a-4fbe-8303-7736b0fff814.jpg',
     },
     {
       name: 'MDF Boards',
@@ -152,16 +157,35 @@ export const HomePage: React.FC<HomePageProps> = ({
       name: 'Quartz',
       desc: 'Premium engineered quartz stone slabs with flawless hardness and non-porous faces, perfect for high-end kitchen countertops.',
       img: 'https://cdn.phototourl.com/free/2026-07-10-fe00349c-6e33-4650-be62-8a241ac9233b.jpg',
+      images: [
+        'https://cdn.phototourl.com/free/2026-07-10-fe00349c-6e33-4650-be62-8a241ac9233b.jpg',
+        'https://cdn.phototourl.com/free/2026-07-14-d937267f-b040-46dc-b4ba-0b19bfa77a09.jpg'
+      ]
     },
     {
       name: 'PlyWood',
       desc: 'Structural multi-ply hardwood plywood sheets bonded with durable structural grade adhesive, offering high screw-pullout resistance.',
       img: 'https://cdn.phototourl.com/free/2026-07-10-32e9b491-9d84-4e46-ba67-0b8edeb519eb.png',
+      images: [
+        'https://cdn.phototourl.com/free/2026-07-10-32e9b491-9d84-4e46-ba67-0b8edeb519eb.png',
+        'https://cdn.phototourl.com/free/2026-07-14-46fc3027-c88c-4801-ab80-858d9866578c.jpg'
+      ]
     },
     {
       name: 'Doors',
       desc: 'Solid core pine block entry doors finished with modern moisture-proof laminated skins to prevent door warping.',
-      img: 'https://cdn.phototourl.com/member/2026-07-10-f2b5e991-1826-4660-bbfa-df6be6ffecca.jpg',
+      img: 'https://cdn.phototourl.com/free/2026-07-14-4b8adf60-a060-450f-9766-b2af980511d3.jpg',
+      images: [
+        'https://cdn.phototourl.com/free/2026-07-14-93b353b3-b6c8-46b6-ade3-d37aed95015a.jpg',
+        'https://cdn.phototourl.com/free/2026-07-14-afdafdd3-f8a3-470b-b288-5040e3d7b30b.jpg',
+        'https://cdn.phototourl.com/free/2026-07-14-d1afd040-9659-45c6-8e97-5c6cc96c120e.jpg',
+        'https://cdn.phototourl.com/free/2026-07-14-0402ee58-b20f-40ed-bd68-06085b1b8d3d.jpg',
+        'https://cdn.phototourl.com/free/2026-07-14-2af2f329-3377-44b0-ae76-c99d83bcb343.jpg',
+        'https://cdn.phototourl.com/free/2026-07-14-3737f3aa-6b7b-4627-b9df-1ec5fac20f67.jpg',
+        'https://cdn.phototourl.com/free/2026-07-14-aec0bec3-5d7b-4577-82db-1c1c2a742c2e.jpg',
+        'https://cdn.phototourl.com/free/2026-07-14-dd4bf6e8-0651-451f-967a-cabbeb3f4e9c.jpg',
+        'https://cdn.phototourl.com/free/2026-07-14-4b8adf60-a060-450f-9766-b2af980511d3.jpg'
+      ]
     }
   ];
 

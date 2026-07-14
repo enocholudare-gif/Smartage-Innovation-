@@ -1,5 +1,28 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Package, Plus, CheckCircle2, ShoppingBag, Eye, HelpCircle } from 'lucide-react';
+
+const AccessoryCarousel = ({ images, name }: { images: string[], name: string }) => {
+  const [idx, setIdx] = useState(0);
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setIdx((prev) => (prev + 1) % images.length);
+    }, 3000);
+    return () => clearInterval(timer);
+  }, [images.length]);
+  
+  return (
+    <div className="w-full h-full relative">
+      {images.map((img, i) => (
+        <img
+          key={i}
+          src={img}
+          alt={`${name} ${i + 1}`}
+          className={`absolute inset-0 w-full h-full object-cover transition-all duration-700 ${i === idx ? 'opacity-100 scale-100' : 'opacity-0 scale-105'}`}
+        />
+      ))}
+    </div>
+  );
+};
 import { PageId } from '../types';
 
 interface WoodAccessoriesPageProps {
@@ -12,60 +35,27 @@ export const WoodAccessoriesPage: React.FC<WoodAccessoriesPageProps> = ({ onAddT
 
   const accessories = [
     {
-      id: 'acc-01',
-      name: 'Melamine & PVC Edge Banding Tape',
-      shortDesc: 'Flexible premium edge tape rolls for sealing exposed margins of laminated MDF boards.',
-      fullDesc: 'High-density plasticized PVC and melamine edge banding tapes, pre-treated with high-quality primer on the underside to ensure absolute adhesion when applied by automated edgebanders. Ideal for kitchen cabinets, office desks, and modular wardrobes.',
-      image: 'https://cdn.phototourl.com/free/2026-07-10-b0401a33-268d-4057-b219-79ce1720d251.jpg',
-      specs: [
-        { label: 'Widths Available', value: '19 mm / 22 mm / 35 mm / 45 mm' },
-        { label: 'Thickness Options', value: '0.4 mm / 1.0 mm / 2.0 mm' },
-        { label: 'Roll Length', value: '100 m / 200 m per roll' },
-        { label: 'Colors', value: 'Matching our Melamine Wood-grains' }
-      ],
-      features: [
-        'UV-resistant protective surface coatings prevent fading',
-        'Impact-absorbing flexible PVC prevents corner bruises',
-        'Pre-primed backs lock into hot-melt glue',
-        'Can be cleanly routed and buffed without fraying'
-      ]
-    },
-    {
-      id: 'acc-02',
-      name: 'High-Strength D3 PVA Wood Adhesive',
-      shortDesc: 'Water-resistant, high-solid structural wood glue for durable woodworking joins and veneer bonds.',
-      fullDesc: 'Industrial-strength, fast-curing polyvinyl acetate (PVA) emulsion glue formulated for high-load furniture and structural wood joints. Fully complies with D3 European water resistance specifications.',
-      image: 'https://cdn.phototourl.com/free/2026-07-10-cca0d3dd-dad0-42fe-8d40-0092a9b6b22b.jpg',
-      specs: [
-        { label: 'Water Resistance', value: 'EN 204 D3 Certified' },
-        { label: 'Pressing Time', value: '15 - 30 minutes at 20°C' },
-        { label: 'Solid Content', value: '50% High-Solid Formulation' },
-        { label: 'Shelf Life', value: '12 Months unopened' }
-      ],
-      features: [
-        'Dries fully translucent for clear wood joint lines',
-        'Water-resistant bonding suitable for kitchen counters',
-        'High tensile strength holds tight under heavy loads',
-        'Non-toxic and easily washable when still wet'
-      ]
-    },
-    {
       id: 'acc-03',
-      name: 'Selected Solid Pine Dowels & Joint Biscuits',
-      shortDesc: 'Calibrated interlocking timber dowels and compressed beech biscuits for strong invisible carpentry joints.',
-      fullDesc: 'Precisely machined multi-grooved solid pine dowel pins and compressed beechwood joint biscuits. These joint accessories expand slightly upon absorbing water from PVA glues, locking joint interfaces with immense structural stiffness.',
-      image: 'https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=600&q=80',
+      name: 'Accessories and Fittings',
+      shortDesc: 'High-quality fittings and accessories for professional woodworking and cabinetry.',
+      fullDesc: 'A comprehensive selection of premium accessories and fittings essential for all your cabinetry and furniture making needs. Assuring durability and reliable performance for all modern interior projects.',
+      image: 'https://cdn.phototourl.com/free/2026-07-14-33c664ff-6d30-4844-8df5-90dfd7eaa3d7.jpg',
+      images: [
+        'https://cdn.phototourl.com/free/2026-07-14-33c664ff-6d30-4844-8df5-90dfd7eaa3d7.jpg',
+        'https://cdn.phototourl.com/free/2026-07-14-6f9c1f21-ba8a-4f1d-98e2-ded3f5ad860b.jpg',
+        'https://cdn.phototourl.com/free/2026-07-14-bbd6cd4e-47f8-4a35-ac34-04d687e1d109.jpg'
+      ],
       specs: [
-        { label: 'Dowel Dimensions', value: '6x30mm, 8x40mm, 10x50mm, 12x60mm' },
-        { label: 'Biscuit Sizes', value: 'No. 0 / No. 10 / No. 20' },
-        { label: 'Material', value: 'Kiln-Dried European Beech / selected Pine' },
-        { label: 'Grooving Pattern', value: 'Spiral flute dowels for even glue spread' }
+        { label: 'Category', value: 'Fittings & Hardware' },
+        { label: 'Application', value: 'Furniture Assembly' },
+        { label: 'Material', value: 'Mixed Premium Materials' },
+        { label: 'Durability', value: 'High' }
       ],
       features: [
-        'Kiln-dried down to 8% moisture for zero shrinkage',
-        'Chamfered ends simplify rapid joint insertion',
-        'Compressed beechwood expands inside joints to seal voids',
-        'Perfect for automated doweling machines and handheld joiners'
+        'Professional-grade quality',
+        'Reliable connection and assembly',
+        'Long-lasting performance',
+        'Wide range of applications'
       ]
     }
   ];
@@ -94,11 +84,11 @@ export const WoodAccessoriesPage: React.FC<WoodAccessoriesPageProps> = ({ onAddT
       <section className="bg-gradient-to-b from-white to-[#F8FAFC] py-16 border-b border-slate-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-4">
           <div className="inline-block px-3 py-1 bg-[#B58E3D]/10 text-[#B58E3D] text-[10px] font-bold uppercase tracking-[0.2em] rounded">
-            Wood Accessory Components
+            Accessories and Fittings
           </div>
 
           <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tighter text-slate-900 font-display">
-            Wood <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#B58E3D] to-[#D4AF37]">Accessories & Fittings</span>
+            Accessories <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#B58E3D] to-[#D4AF37]">and Fittings</span>
           </h1>
 
           <p className="text-xs sm:text-sm text-slate-500 max-w-2xl leading-relaxed">
@@ -120,12 +110,16 @@ export const WoodAccessoriesPage: React.FC<WoodAccessoriesPageProps> = ({ onAddT
                 <div>
                   {/* Image Holder */}
                   <div className="relative rounded-2xl overflow-hidden h-48 bg-slate-100 shadow-inner">
-                    <img
-                      src={item.image}
-                      alt={item.name}
-                      referrerPolicy="no-referrer"
-                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-102"
-                    />
+                    {item.images ? (
+                      <AccessoryCarousel images={item.images} name={item.name} />
+                    ) : (
+                      <img
+                        src={item.image}
+                        alt={item.name}
+                        referrerPolicy="no-referrer"
+                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-102"
+                      />
+                    )}
                   </div>
 
                   {/* Body Info */}

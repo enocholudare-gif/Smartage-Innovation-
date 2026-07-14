@@ -15,7 +15,7 @@ export const Logo: React.FC<LogoProps> = ({
   className = '',
 }) => {
   const [imageError, setImageError] = useState(false);
-  const userProvidedLogoUrl = 'https://cdn.phototourl.com/free/2026-07-05-816388da-94eb-42ec-a9cd-5066a59ae38b.jpg';
+  const userProvidedLogoUrl = 'https://cdn.phototourl.com/free/2026-07-14-988140ab-5d2f-4606-b06b-9236a5b563f2.jpg';
   const logoSrc = imageError ? smartageLogo : userProvidedLogoUrl;
 
   // Dimension mapping

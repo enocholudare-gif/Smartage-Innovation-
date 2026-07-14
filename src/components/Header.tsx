@@ -37,9 +37,8 @@ const dropdownCategories = [
 ];
 
 const machineCategories = [
-  'High-Precision Edge Bander',
-  'Sliding Table Panel Saw',
-  'CNC Router Center'
+  'High-Precision Automatic Edge Bending Machine',
+  'Heavy-Duty Cutting Machine'
 ];
 
 export const Header: React.FC<HeaderProps> = ({
@@ -74,7 +73,7 @@ export const Header: React.FC<HeaderProps> = ({
     { id: 'about', label: 'About Us' },
     { id: 'products', label: 'Products' },
     { id: 'machines', label: 'Machines' },
-    { id: 'wood-accessories', label: 'Wood Accessories' },
+    { id: 'wood-accessories', label: 'Accessories and Fittings' },
     { id: 'sustainability', label: 'Sustainability' },
     { id: 'gallery', label: 'Gallery' },
     { id: 'news', label: 'News' },
@@ -115,18 +114,18 @@ export const Header: React.FC<HeaderProps> = ({
             </button>
             <span className="text-stone-800">|</span>
             <a
-              href="tel:+260977889900"
+              href="tel:+260978708354"
               className="flex items-center space-x-1.5 text-slate-300 hover:text-white transition-colors"
             >
               <Phone className="w-3.5 h-3.5 text-[#8B5A2B]" />
-              <span>+260 977 889900</span>
+              <span>+260 978708354</span>
             </a>
             <a
-              href="mailto:contact@sail.co.zm"
+              href="mailto:enquiries@sailltd.com"
               className="flex items-center space-x-1.5 text-slate-300 hover:text-white transition-colors"
             >
               <Mail className="w-3.5 h-3.5 text-[#8B5A2B]" />
-              <span>contact@sail.co.zm</span>
+              <span>enquiries@sailltd.com</span>
             </a>
           </div>
         </div>

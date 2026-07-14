@@ -21,9 +21,9 @@ export const ContactPage: React.FC = () => {
   const selectedOffice = officeLocations[0] || {
     city: 'Lusaka',
     country: 'Zambia',
-    address: 'Great East Road Plot 4902, Lusaka, Zambia',
-    phone: '+260 977 889900',
-    email: 'contact@sail.co.zm',
+    address: 'plot 3169, Mukwa Road, Light industrial Area, Buseko, Lusaka',
+    phone: '+260 978708354 | +260 950311205',
+    email: 'enquiries@sailltd.com',
     workingHours: 'Mon - Fri: 08:00 - 17:00, Sat: 08:00 - 13:00'
   };
 
@@ -58,7 +58,7 @@ I am submitting a secure corporate inquiry:
 Inquiry Message / Specifications:
 ${formData.message}`;
 
-  const mailUrl = `mailto:contact@sail.co.zm?subject=${encodeURIComponent(`SAIL SADC Inquiry: ${formData.inquiryType}`)}&body=${encodeURIComponent(inquiryText)}`;
+  const mailUrl = `mailto:enquiries@sailltd.com?subject=${encodeURIComponent(`SAIL SADC Inquiry: ${formData.inquiryType}`)}&body=${encodeURIComponent(inquiryText)}`;
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -257,7 +257,7 @@ ${formData.message}`;
                 </h3>
                 <p className="text-slate-500 text-xs leading-relaxed flex items-start space-x-2">
                   <MapPin className="w-4 h-4 text-[#8B5A2B] shrink-0 mt-0.5" />
-                  <span>Great East Road Plot 4902, Lusaka, Zambia</span>
+                  <span>plot 3169, Mukwa Road, Light industrial Area, Buseko, Lusaka</span>
                 </p>
               </div>
 
@@ -298,7 +298,7 @@ ${formData.message}`;
               <div className="relative z-10 space-y-2">
                 <MapPin className="w-8 h-8 text-[#D97706] mx-auto animate-bounce" />
                 <p className="text-white text-xs font-bold font-mono">SAIL Corporate Tower</p>
-                <p className="text-slate-400 text-[10px] font-mono leading-relaxed">Great East Road Plot 4902 • Lusaka<br />GPS Coordinates: -15.3875, 28.3228</p>
+                <p className="text-slate-400 text-[10px] font-mono leading-relaxed">plot 3169, Mukwa Road, Light industrial Area, Buseko • Lusaka<br />GPS Coordinates: -15.3875, 28.3228</p>
               </div>
             </div>
           </div>

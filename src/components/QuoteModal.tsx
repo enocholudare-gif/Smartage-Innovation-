@@ -51,6 +51,26 @@ export const QuoteModal: React.FC<QuoteModalProps> = ({
     const generatedRfq = `RFQ-SAIL-${Math.floor(100000 + Math.random() * 900000)}`;
     setRfqNumber(generatedRfq);
     setSubmitted(true);
+
+    const emailSubject = encodeURIComponent(`Corporate Inquiry: ${generatedRfq}`);
+    const emailBody = encodeURIComponent(`
+RFQ Reference: ${generatedRfq}
+
+Contact Name: ${formData.fullName}
+Company/School: ${formData.companyName}
+Email: ${formData.email}
+Phone: ${formData.phone}
+Target Country: ${formData.country}
+Delivery Port: ${formData.deliveryPort || 'N/A'}
+
+Specifications/Notes:
+${formData.projectNotes || 'None'}
+
+Selected Items:
+${items.map(item => `- ${item.quantity}x ${item.title} (${item.codeOrCategory})`).join('\n')}
+    `.trim());
+
+    window.location.href = `mailto:enquiries@sailltd.com?subject=${emailSubject}&body=${emailBody}`;
   };
 
   const handleReset = () => {

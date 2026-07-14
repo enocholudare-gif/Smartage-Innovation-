@@ -168,11 +168,11 @@ export const productsData: Product[] = [
     subCategory: 'Laminated MDF Boards',
     shortDesc: 'Premium double-sided melamine laminated MDF boards presenting spectacular wood-grain and solid color textures.',
     fullDesc: 'Double-sided laminated MDF boards engineered using a raw MDF substrate fused with decorative, resin-impregnated papers under thermal pressure. Designed to deliver an exceptionally durable, scratch-resistant face that stands up to heavy everyday wear in kitchens and corporate fit-outs.',
-    image: 'https://cdn.phototourl.com/free/2026-07-11-19ad881e-6681-491f-8bd3-876567d385e8.jpg',
+    image: 'https://cdn.phototourl.com/free/2026-07-14-aa157a95-659c-4bf4-a804-41efd0abda8b.jpg',
     detailImages: [
-      'https://cdn.phototourl.com/free/2026-07-11-19ad881e-6681-491f-8bd3-876567d385e8.jpg',
-      'https://cdn.phototourl.com/free/2026-07-10-2e79c64c-9fa2-4056-a05e-c89aefdfb519.jpg',
-      'https://cdn.phototourl.com/free/2026-07-10-d5b59393-2aff-4b4d-a024-87124722f9c6.jpg'
+      'https://cdn.phototourl.com/free/2026-07-14-aa157a95-659c-4bf4-a804-41efd0abda8b.jpg',
+      'https://cdn.phototourl.com/free/2026-07-14-3b040c3a-225b-43ed-ad19-1c5445fd5ed5.jpg',
+      'https://cdn.phototourl.com/free/2026-07-14-d7ccf44e-0854-44e8-9237-74d641be341f.jpg'
     ],
     features: [
       'Fused double-sided melamine laminate overlay',
@@ -215,7 +215,8 @@ export const productsData: Product[] = [
     image: 'https://cdn.phototourl.com/free/2026-07-10-fe00349c-6e33-4650-be62-8a241ac9233b.jpg',
     detailImages: [
       'https://cdn.phototourl.com/free/2026-07-10-1e752e8d-2354-4380-bfec-5df19e593f03.jpg',
-      'https://cdn.phototourl.com/free/2026-07-10-94d4f1a5-efb6-41b4-9d93-fc0f89bb2a83.jpg'
+      'https://cdn.phototourl.com/free/2026-07-10-94d4f1a5-efb6-41b4-9d93-fc0f89bb2a83.jpg',
+      'https://cdn.phototourl.com/free/2026-07-14-d937267f-b040-46dc-b4ba-0b19bfa77a09.jpg'
     ],
     features: [
       'Extremely hard surface (Mohs hardness scale 7)',
@@ -382,7 +383,18 @@ export const productsData: Product[] = [
     subCategory: 'Doors',
     shortDesc: 'Solid core engineered timber entry doors designed to prevent moisture warping.',
     fullDesc: 'Durable architectural solid core doors faced with beautiful real wood-grain veneer sheets. Features an internal blockboard block core that blocks ambient noise completely and offers dependable, high-security structural integrity.',
-    image: 'https://cdn.phototourl.com/member/2026-07-10-f2b5e991-1826-4660-bbfa-df6be6ffecca.jpg',
+    image: 'https://cdn.phototourl.com/free/2026-07-14-4b8adf60-a060-450f-9766-b2af980511d3.jpg',
+    detailImages: [
+      'https://cdn.phototourl.com/free/2026-07-14-93b353b3-b6c8-46b6-ade3-d37aed95015a.jpg',
+      'https://cdn.phototourl.com/free/2026-07-14-afdafdd3-f8a3-470b-b288-5040e3d7b30b.jpg',
+      'https://cdn.phototourl.com/free/2026-07-14-d1afd040-9659-45c6-8e97-5c6cc96c120e.jpg',
+      'https://cdn.phototourl.com/free/2026-07-14-0402ee58-b20f-40ed-bd68-06085b1b8d3d.jpg',
+      'https://cdn.phototourl.com/free/2026-07-14-2af2f329-3377-44b0-ae76-c99d83bcb343.jpg',
+      'https://cdn.phototourl.com/free/2026-07-14-3737f3aa-6b7b-4627-b9df-1ec5fac20f67.jpg',
+      'https://cdn.phototourl.com/free/2026-07-14-aec0bec3-5d7b-4577-82db-1c1c2a742c2e.jpg',
+      'https://cdn.phototourl.com/free/2026-07-14-dd4bf6e8-0651-451f-967a-cabbeb3f4e9c.jpg',
+      'https://cdn.phototourl.com/free/2026-07-14-4b8adf60-a060-450f-9766-b2af980511d3.jpg'
+    ],
     features: [
       'Engineered wood blocks build a heavy solid core',
       'Pre-finished water-resistant veneer outer layers',
@@ -417,22 +429,22 @@ export const productsData: Product[] = [
   },
   {
     id: 'prod-13',
-    name: 'Shutter Board & Block Board',
-    category: 'Wood Boards & Panels',
-    subCategory: 'Shutter Board & Block Board',
-    shortDesc: 'Durable solid wood blockboard sheets sandwich-covered with high-strength veneer faces.',
-    fullDesc: 'A premium composite board featuring a solid core constructed of edge-bonded kiln-dried pine blocks, faced on both sides with high-grade hardwood veneers. Combines light weight with high structural stiffness and outstanding resistance to sagging.',
-    image: 'https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=600&q=80',
+    name: 'School Furniture',
+    category: 'Furniture',
+    subCategory: 'School Furniture',
+    shortDesc: 'Durable school desks and institutional furniture designed to survive decades of continuous use.',
+    fullDesc: 'A premium range of school furniture featuring solid cores constructed of edge-bonded kiln-dried pine blocks, faced on both sides with high-grade hardwood veneers. Combines light weight with high structural stiffness and outstanding resistance to sagging.',
+    image: 'https://cdn.phototourl.com/free/2026-07-09-58459c6a-c8f3-4717-ab4d-d23d7edea158.jpg',
     features: [
       'Extremely high load strength with low weight profile',
       'Resists sagging over wide open spans',
-      'Holds structural hinges and heavy screws tightly',
+      'Child-safe rounded desk corners for institutional safety',
       'Easy to laminate or veneer face'
     ],
     specifications: [
       {
         label: 'Dimensions',
-        value: '2440 x 1220 mm'
+        value: 'Custom configurations'
       },
       {
         label: 'Thickness',
@@ -448,8 +460,8 @@ export const productsData: Product[] = [
       }
     ],
     applications: [
-      'Wide cabinet doors',
-      'Custom wardrobes & shelf bodies',
+      'School classroom fit-outs',
+      'University study halls',
       'Heavy-duty workstation counters',
       'Interior office partitioning'
     ],
@@ -462,7 +474,7 @@ export const productsData: Product[] = [
     subCategory: 'PVC marble sheets',
     shortDesc: 'High-gloss stone plastic composite (SPC) wall panels with realistic marble textures for luxury interiors.',
     fullDesc: 'Our PVC Marble Sheets (also known as SPC Wall Panels) are high-gloss, ultra-durable decorative panels engineered from a stone-plastic composite. They replicate natural marble veins and textures beautifully while offering 100% waterproofing, fire retardancy, and simple adhesive installation.',
-    image: 'https://cdn.phototourl.com/free/2026-07-10-be794c20-1abe-4c81-9996-1d0446e43c2a.jpg',
+    image: 'https://cdn.phototourl.com/free/2026-07-14-b9921ecc-e612-4932-960d-94b1f8db8f99.jpg',
     detailImages: [
       'https://cdn.phototourl.com/free/2026-07-10-a8624d97-091f-4a82-a756-bf072346b8fd.jpg',
       'https://cdn.phototourl.com/free/2026-07-10-b9956985-1158-4f73-a7f5-83a349f19c61.webp',
@@ -507,7 +519,7 @@ export const productsData: Product[] = [
     subCategory: 'Fibre boards',
     shortDesc: 'High-density fibreboard (HDF) and softboards for acoustic insulation, pinning boards, and backing sheets.',
     fullDesc: 'Our engineered Fibre Boards range includes High-Density Fibreboard (HDF) for high-impact backing panels and soft acoustic panels. They are produced by combining wood fibres under heat and intense pressure, delivering uniform structural integrity and sound insulation.',
-    image: 'https://cdn.phototourl.com/free/2026-07-12-083398ee-6d80-4d83-a322-0d57d35d5dba.jpg',
+    image: 'https://cdn.phototourl.com/free/2026-07-14-f1040c01-de4a-4fbe-8303-7736b0fff814.jpg',
     features: [
       'High density and stability to prevent warping or bowing',
       'Excellent acoustic absorption and thermal resistance properties',
@@ -770,9 +782,9 @@ export const officeLocations: OfficeLocation[] = [
   {
     city: 'Lusaka',
     country: 'Zambia',
-    address: 'Great East Road Plot 4902, Lusaka, Zambia',
-    phone: '+260 977 889900',
-    email: 'contact@sail.co.zm',
+    address: 'plot 3169, Mukwa Road, Light industrial Area, Buseko, Lusaka',
+    phone: '+260 978708354 | +260 950311205',
+    email: 'enquiries@sailltd.com',
     workingHours: 'Mon - Fri: 08:00 - 17:00, Sat: 08:00 - 13:00'
   }
 ];
