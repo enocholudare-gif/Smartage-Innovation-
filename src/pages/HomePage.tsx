@@ -125,11 +125,6 @@ export const HomePage: React.FC<HomePageProps> = ({
       ]
     },
     {
-      name: 'PVC marble sheets',
-      desc: 'High-gloss stone plastic composite (SPC) wall panels with realistic marble textures for luxury water-resistant interiors.',
-      img: 'https://cdn.phototourl.com/free/2026-07-14-b9921ecc-e612-4932-960d-94b1f8db8f99.jpg',
-    },
-    {
       name: 'Fibre boards',
       desc: 'High-density fibreboard (HDF) and acoustic softboards designed for structural backing and premium sound insulation.',
       img: 'https://cdn.phototourl.com/free/2026-07-14-f1040c01-de4a-4fbe-8303-7736b0fff814.jpg',

@@ -435,6 +435,10 @@ export const productsData: Product[] = [
     shortDesc: 'Durable school desks and institutional furniture designed to survive decades of continuous use.',
     fullDesc: 'A premium range of school furniture featuring solid cores constructed of edge-bonded kiln-dried pine blocks, faced on both sides with high-grade hardwood veneers. Combines light weight with high structural stiffness and outstanding resistance to sagging.',
     image: 'https://cdn.phototourl.com/free/2026-07-09-58459c6a-c8f3-4717-ab4d-d23d7edea158.jpg',
+    detailImages: [
+      'https://cdn.phototourl.com/free/2026-07-14-8e600d99-2a83-4c7b-b9cc-ec7d63c1e567.jpg',
+      'https://cdn.phototourl.com/free/2026-07-14-965d8078-01c1-4933-8088-4fd067c5ec5d.jpg'
+    ],
     features: [
       'Extremely high load strength with low weight profile',
       'Resists sagging over wide open spans',
@@ -466,51 +470,6 @@ export const productsData: Product[] = [
       'Interior office partitioning'
     ],
     isFeatured: false
-  },
-  {
-    id: 'prod-17',
-    name: 'PVC marble sheets',
-    category: 'Wood Boards & Panels',
-    subCategory: 'PVC marble sheets',
-    shortDesc: 'High-gloss stone plastic composite (SPC) wall panels with realistic marble textures for luxury interiors.',
-    fullDesc: 'Our PVC Marble Sheets (also known as SPC Wall Panels) are high-gloss, ultra-durable decorative panels engineered from a stone-plastic composite. They replicate natural marble veins and textures beautifully while offering 100% waterproofing, fire retardancy, and simple adhesive installation.',
-    image: 'https://cdn.phototourl.com/free/2026-07-14-b9921ecc-e612-4932-960d-94b1f8db8f99.jpg',
-    detailImages: [
-      'https://cdn.phototourl.com/free/2026-07-10-a8624d97-091f-4a82-a756-bf072346b8fd.jpg',
-      'https://cdn.phototourl.com/free/2026-07-10-b9956985-1158-4f73-a7f5-83a349f19c61.webp',
-      'https://cdn.phototourl.com/free/2026-07-10-78aa9b0e-e626-4ed2-9987-79d7efaf5022.jpg'
-    ],
-    features: [
-      '100% waterproof, mould-resistant, and termite-free',
-      'High-gloss UV-coated protective layer prevents fading',
-      'Extremely lightweight compared to heavy natural marble stone',
-      'Easy and fast adhesive installation on flat walls'
-    ],
-    specifications: [
-      {
-        label: 'Standard Dimensions',
-        value: '2440 x 1220 mm'
-      },
-      {
-        label: 'Thickness',
-        value: '3.0 mm'
-      },
-      {
-        label: 'Base Material',
-        value: 'Stone Plastic Composite (SPC)'
-      },
-      {
-        label: 'Surface finish',
-        value: 'High-Gloss UV Cured Mirror Finish'
-      }
-    ],
-    applications: [
-      'Luxury bathroom wall claddings',
-      'TV backdrop feature walls',
-      'Hotel and office reception walls',
-      'Kitchen splashbacks (away from direct flames)'
-    ],
-    isFeatured: true
   },
   {
     id: 'prod-19',

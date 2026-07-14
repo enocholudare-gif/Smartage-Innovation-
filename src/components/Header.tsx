@@ -27,7 +27,6 @@ interface HeaderProps {
 const dropdownCategories = [
   'Melamine board',
   'Laminated MDF Boards',
-  'PVC marble sheets',
   'Fibre boards',
   'MDF Boards',
   'Furniture and interior',

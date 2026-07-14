@@ -80,28 +80,14 @@ export const SustainabilityPage: React.FC<SustainabilityPageProps> = ({ onNaviga
         </div>
 
         {/* Section 2: Zero Waste Cutting & Low Emissions */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center lg:pt-10">
-          <div className="rounded-3xl overflow-hidden aspect-video relative shadow-xl order-last lg:order-first">
-            <img 
-              src="https://cdn.phototourl.com/free/2026-07-10-2de0c28c-22a9-453e-a66a-08b00ee7be48.jpg" 
-              alt="Precision Cutting" 
-              className="w-full h-full object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
-              <div className="text-white space-y-1">
-                <p className="text-xs uppercase tracking-widest text-[#D4AF37] font-bold">Waste Minimization</p>
-                <h4 className="font-bold text-base">Algorithmic Sheet Sizing Yields</h4>
-              </div>
-            </div>
-          </div>
-
+        <div className="grid grid-cols-1 gap-12 items-center lg:pt-10">
           <div className="space-y-6">
             <div className="inline-flex items-center space-x-2 text-xs font-bold text-[#B58E3D] uppercase tracking-wider font-mono">
               <Leaf className="w-4 h-4" />
-              <span>Eco-Friendly Sizing Yard</span>
+              <span>Waste Minimization</span>
             </div>
             <h2 className="text-2xl sm:text-3xl font-black text-slate-900 font-display">
-              Eco-Friendly Board Sizing & Cutting
+              Algorithmic Sheet Sizing & Waste Minimization
             </h2>
             <p className="text-slate-600 text-xs sm:text-sm leading-relaxed">
               Raw panel sheets are expensive and cutting them inefficiently creates massive wood scrap piles. At our Lusaka cutting yard, we utilize professional layout-optimizing models to calculate the perfect cutting line placements on every sheet.
@@ -155,17 +141,20 @@ export const SustainabilityPage: React.FC<SustainabilityPageProps> = ({ onNaviga
             </button>
           </div>
 
-          <div className="rounded-3xl overflow-hidden aspect-video relative shadow-xl">
-            <img 
-              src="https://cdn.phototourl.com/free/2026-07-09-58459c6a-c8f3-4717-ab4d-d23d7edea158.jpg" 
-              alt="Classroom Education" 
-              className="w-full h-full object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
-              <div className="text-white space-y-1">
-                <p className="text-xs uppercase tracking-widest text-[#D4AF37] font-bold">Community Support</p>
-                <h4 className="font-bold text-base">Long-lasting Institutional Desks</h4>
-              </div>
+          <div className="grid grid-cols-2 gap-4">
+            <div className="rounded-3xl overflow-hidden aspect-square sm:aspect-video relative shadow-xl">
+              <img 
+                src="https://cdn.phototourl.com/free/2026-07-14-ee919fa0-6be2-4509-b89a-f91f57326767.jpg" 
+                alt="Educational Desks 1" 
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="rounded-3xl overflow-hidden aspect-square sm:aspect-video relative shadow-xl">
+              <img 
+                src="https://cdn.phototourl.com/free/2026-07-14-73e16a13-dc9c-4fa1-a02e-b4207518ae42.jpg" 
+                alt="Educational Desks 2" 
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>
