@@ -434,7 +434,7 @@ export const productsData: Product[] = [
     subCategory: 'School Furniture',
     shortDesc: 'Durable school desks and institutional furniture designed to survive decades of continuous use.',
     fullDesc: 'A premium range of school furniture featuring solid cores constructed of edge-bonded kiln-dried pine blocks, faced on both sides with high-grade hardwood veneers. Combines light weight with high structural stiffness and outstanding resistance to sagging.',
-    image: 'https://cdn.phototourl.com/free/2026-07-09-58459c6a-c8f3-4717-ab4d-d23d7edea158.jpg',
+    image: 'https://cdn.phototourl.com/free/2026-07-14-69823b61-72e8-4d67-8572-146b3d6c8680.jpg',
     detailImages: [
       'https://cdn.phototourl.com/free/2026-07-14-8e600d99-2a83-4c7b-b9cc-ec7d63c1e567.jpg',
       'https://cdn.phototourl.com/free/2026-07-14-965d8078-01c1-4933-8088-4fd067c5ec5d.jpg'
