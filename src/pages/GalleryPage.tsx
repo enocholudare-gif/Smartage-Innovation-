@@ -4,21 +4,25 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 export const GalleryPage: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  // All 15 images updated on the website for the gallery carousel
+  // All 17 images updated on the website for the gallery carousel
   const galleryImages = [
-    'https://cdn.phototourl.com/free/2026-07-10-c65859ec-51f6-43c0-817c-178c85d5873b.png',
-    'https://cdn.phototourl.com/free/2026-07-10-2e79c64c-9fa2-4056-a05e-c89aefdfb519.jpg',
-    'https://cdn.phototourl.com/free/2026-07-10-d5b59393-2aff-4b4d-a024-87124722f9c6.jpg',
-    'https://cdn.phototourl.com/free/2026-07-10-f2860ae6-4d68-4710-80c3-e1d615e74557.png',
-    'https://cdn.phototourl.com/free/2026-07-10-32e9b491-9d84-4e46-ba67-0b8edeb519eb.png',
-    'https://cdn.phototourl.com/free/2026-07-10-3bd47a73-ad3b-4780-bdf7-51fdd8d22404.jpg',
-    'https://cdn.phototourl.com/free/2026-07-10-7f14805d-b6b6-4b84-b12b-77b7be2d2ca3.jpg',
-    'https://cdn.phototourl.com/free/2026-07-10-b04db99f-42b5-4bb9-8f30-96dbe18ce894.png',
-    'https://cdn.phototourl.com/free/2026-07-10-93996190-4b12-446e-8919-37a949ed68b0.jpg',
-    'https://cdn.phototourl.com/free/2026-07-10-be794c20-1abe-4c81-9996-1d0446e43c2a.jpg',
-    'https://cdn.phototourl.com/free/2026-07-10-447a4edf-a34f-4931-8053-d13810925469.webp',
-    'https://cdn.phototourl.com/free/2026-07-10-9642c9e4-2aaf-4e0f-bcc5-8f99925533cc.jpg',
-    'https://cdn.phototourl.com/free/2026-07-10-b0401a33-268d-4057-b219-79ce1720d251.jpg'
+    'https://cdn.phototourl.com/free/2026-07-14-aa157a95-659c-4bf4-a804-41efd0abda8b.jpg',
+    'https://cdn.phototourl.com/free/2026-07-14-3b040c3a-225b-43ed-ad19-1c5445fd5ed5.jpg',
+    'https://cdn.phototourl.com/free/2026-07-14-d7ccf44e-0854-44e8-9237-74d641be341f.jpg',
+    'https://cdn.phototourl.com/free/2026-07-14-d937267f-b040-46dc-b4ba-0b19bfa77a09.jpg',
+    'https://cdn.phototourl.com/free/2026-07-14-4b8adf60-a060-450f-9766-b2af980511d3.jpg',
+    'https://cdn.phototourl.com/free/2026-07-14-93b353b3-b6c8-46b6-ade3-d37aed95015a.jpg',
+    'https://cdn.phototourl.com/free/2026-07-14-afdafdd3-f8a3-470b-b288-5040e3d7b30b.jpg',
+    'https://cdn.phototourl.com/free/2026-07-14-d1afd040-9659-45c6-8e97-5c6cc96c120e.jpg',
+    'https://cdn.phototourl.com/free/2026-07-14-0402ee58-b20f-40ed-bd68-06085b1b8d3d.jpg',
+    'https://cdn.phototourl.com/free/2026-07-14-2af2f329-3377-44b0-ae76-c99d83bcb343.jpg',
+    'https://cdn.phototourl.com/free/2026-07-14-3737f3aa-6b7b-4627-b9df-1ec5fac20f67.jpg',
+    'https://cdn.phototourl.com/free/2026-07-14-aec0bec3-5d7b-4577-82db-1c1c2a742c2e.jpg',
+    'https://cdn.phototourl.com/free/2026-07-14-dd4bf6e8-0651-451f-967a-cabbeb3f4e9c.jpg',
+    'https://cdn.phototourl.com/free/2026-07-14-69823b61-72e8-4d67-8572-146b3d6c8680.jpg',
+    'https://cdn.phototourl.com/free/2026-07-14-8e600d99-2a83-4c7b-b9cc-ec7d63c1e567.jpg',
+    'https://cdn.phototourl.com/free/2026-07-14-965d8078-01c1-4933-8088-4fd067c5ec5d.jpg',
+    'https://cdn.phototourl.com/free/2026-07-14-f1040c01-de4a-4fbe-8303-7736b0fff814.jpg'
   ];
 
   // Auto-play effect
