@@ -152,7 +152,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
             <div className="pt-2 text-xs space-y-1.5 text-slate-400">
               <p className="flex items-center space-x-2">
                 <MapPin className="w-3.5 h-3.5 text-[#B58E3D]" />
-                <span>plot 3169, Mukwa Road, Light industrial Area, Buseko, Lusaka</span>
+                <span>Plot 3169, Mukwa rd, Lusaka</span>
               </p>
               <p className="flex items-center space-x-2">
                 <Phone className="w-3.5 h-3.5 text-[#B58E3D]" />

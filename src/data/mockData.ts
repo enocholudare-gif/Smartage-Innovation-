@@ -741,7 +741,7 @@ export const officeLocations: OfficeLocation[] = [
   {
     city: 'Lusaka',
     country: 'Zambia',
-    address: 'plot 3169, Mukwa Road, Light industrial Area, Buseko, Lusaka',
+    address: 'Plot 3169, Mukwa rd, Lusaka',
     phone: '+260 978708354 | +260 950311205',
     email: 'enquiries@sailltd.com',
     workingHours: 'Mon - Fri: 08:00 - 17:00, Sat: 08:00 - 13:00'
